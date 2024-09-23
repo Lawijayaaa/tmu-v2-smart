@@ -1,0 +1,1665 @@
+2024-09-05 08:20:56,991 | DEBUG: Starting App
+2024-09-05 08:20:56,991 | INFO: Initializing App
+2024-09-05 08:20:56,991 | DEBUG: Start module_IO
+2024-09-05 08:20:56,991 | DEBUG: Starting process: module_IO.py
+2024-09-05 08:20:56,995 | DEBUG: Process module_IO.py started with PID: 2177
+2024-09-05 08:20:56,996 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-05 08:20:57,997 | DEBUG: Starting process: data_handler.py
+2024-09-05 08:20:58,002 | DEBUG: Process data_handler.py started with PID: 2183
+2024-09-05 08:20:58,002 | DEBUG: Init GUI Tkinter
+2024-09-05 08:20:58,267 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2024-09-05 08:20:58,269 | DEBUG: proc2 Initialize program
+2024-09-05 08:20:58,270 | DEBUG: proc2 Start loop
+2024-09-05 08:20:59,174 | DEBUG: proc1 Initialize Program
+2024-09-05 08:20:59,840 | DEBUG: proc1 Start Loop
+2024-09-05 08:24:00,918 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:24:00,918 | DEBUG: proc1 Backup Excel
+2024-09-05 08:24:00,919 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:24:01,596 | DEBUG: proc1 Excel Size 21682
+2024-09-05 08:24:01,597 | DEBUG: proc1 Backup Size 7233
+2024-09-05 08:24:01,597 | DEBUG: proc1 Save Success
+2024-09-05 08:27:02,971 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:27:02,972 | DEBUG: proc1 Backup Excel
+2024-09-05 08:27:02,974 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:27:03,822 | DEBUG: proc1 Excel Size 35674
+2024-09-05 08:27:03,822 | DEBUG: proc1 Backup Size 21682
+2024-09-05 08:27:03,823 | DEBUG: proc1 Save Success
+2024-09-05 08:30:06,134 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:30:06,135 | DEBUG: proc1 Backup Excel
+2024-09-05 08:30:06,141 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:30:07,139 | DEBUG: proc1 Excel Size 48939
+2024-09-05 08:30:07,139 | DEBUG: proc1 Backup Size 35674
+2024-09-05 08:30:07,139 | DEBUG: proc1 Save Success
+2024-09-05 08:33:09,653 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:33:09,653 | DEBUG: proc1 Backup Excel
+2024-09-05 08:33:09,655 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:33:10,801 | DEBUG: proc1 Excel Size 62767
+2024-09-05 08:33:10,801 | DEBUG: proc1 Backup Size 48939
+2024-09-05 08:33:10,802 | DEBUG: proc1 Save Success
+2024-09-05 08:36:13,421 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:36:13,422 | DEBUG: proc1 Backup Excel
+2024-09-05 08:36:13,423 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:36:14,710 | DEBUG: proc1 Excel Size 76975
+2024-09-05 08:36:14,710 | DEBUG: proc1 Backup Size 62767
+2024-09-05 08:36:14,710 | DEBUG: proc1 Save Success
+2024-09-05 08:39:17,143 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:39:17,144 | DEBUG: proc1 Backup Excel
+2024-09-05 08:39:17,147 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:39:18,620 | DEBUG: proc1 Excel Size 91016
+2024-09-05 08:39:18,620 | DEBUG: proc1 Backup Size 76975
+2024-09-05 08:39:18,621 | DEBUG: proc1 Save Success
+2024-09-05 08:42:20,934 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:42:20,934 | DEBUG: proc1 Backup Excel
+2024-09-05 08:42:20,935 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:42:22,514 | DEBUG: proc1 Excel Size 105067
+2024-09-05 08:42:22,514 | DEBUG: proc1 Backup Size 91016
+2024-09-05 08:42:22,515 | DEBUG: proc1 Save Success
+2024-09-05 08:45:25,099 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:45:25,100 | DEBUG: proc1 Backup Excel
+2024-09-05 08:45:25,103 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:45:26,819 | DEBUG: proc1 Excel Size 119084
+2024-09-05 08:45:26,820 | DEBUG: proc1 Backup Size 105067
+2024-09-05 08:45:26,820 | DEBUG: proc1 Save Success
+2024-09-05 08:48:28,494 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:48:28,495 | DEBUG: proc1 Backup Excel
+2024-09-05 08:48:28,497 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:48:30,421 | DEBUG: proc1 Excel Size 133306
+2024-09-05 08:48:30,421 | DEBUG: proc1 Backup Size 119084
+2024-09-05 08:48:30,421 | DEBUG: proc1 Save Success
+2024-09-05 08:51:31,744 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:51:31,744 | DEBUG: proc1 Backup Excel
+2024-09-05 08:51:31,746 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:51:33,816 | DEBUG: proc1 Excel Size 147330
+2024-09-05 08:51:33,816 | DEBUG: proc1 Backup Size 133306
+2024-09-05 08:51:33,817 | DEBUG: proc1 Save Success
+2024-09-05 08:54:35,075 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:54:35,076 | DEBUG: proc1 Backup Excel
+2024-09-05 08:54:35,079 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:54:37,314 | DEBUG: proc1 Excel Size 161365
+2024-09-05 08:54:37,315 | DEBUG: proc1 Backup Size 147330
+2024-09-05 08:54:37,315 | DEBUG: proc1 Save Success
+2024-09-05 08:57:38,702 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 08:57:38,703 | DEBUG: proc1 Backup Excel
+2024-09-05 08:57:38,706 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 08:57:41,075 | DEBUG: proc1 Excel Size 175300
+2024-09-05 08:57:41,075 | DEBUG: proc1 Backup Size 161365
+2024-09-05 08:57:41,075 | DEBUG: proc1 Save Success
+2024-09-05 09:00:42,363 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:00:42,364 | DEBUG: proc1 Backup Excel
+2024-09-05 09:00:42,367 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:00:44,817 | DEBUG: proc1 Excel Size 189395
+2024-09-05 09:00:44,817 | DEBUG: proc1 Backup Size 175300
+2024-09-05 09:00:44,817 | DEBUG: proc1 Save Success
+2024-09-05 09:03:46,139 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:03:46,139 | DEBUG: proc1 Backup Excel
+2024-09-05 09:03:46,141 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:03:48,838 | DEBUG: proc1 Excel Size 203308
+2024-09-05 09:03:48,838 | DEBUG: proc1 Backup Size 189395
+2024-09-05 09:03:48,838 | DEBUG: proc1 Save Success
+2024-09-05 09:06:50,181 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:06:50,182 | DEBUG: proc1 Backup Excel
+2024-09-05 09:06:50,188 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:06:53,060 | DEBUG: proc1 Excel Size 217295
+2024-09-05 09:06:53,060 | DEBUG: proc1 Backup Size 203308
+2024-09-05 09:06:53,061 | DEBUG: proc1 Save Success
+2024-09-05 09:09:54,315 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:09:54,315 | DEBUG: proc1 Backup Excel
+2024-09-05 09:09:54,319 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:09:57,255 | DEBUG: proc1 Excel Size 231328
+2024-09-05 09:09:57,255 | DEBUG: proc1 Backup Size 217295
+2024-09-05 09:09:57,255 | DEBUG: proc1 Save Success
+2024-09-05 09:12:58,597 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:12:58,598 | DEBUG: proc1 Backup Excel
+2024-09-05 09:12:58,601 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:13:01,774 | DEBUG: proc1 Excel Size 245352
+2024-09-05 09:13:01,774 | DEBUG: proc1 Backup Size 231328
+2024-09-05 09:13:01,774 | DEBUG: proc1 Save Success
+2024-09-05 09:16:03,245 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:16:03,245 | DEBUG: proc1 Backup Excel
+2024-09-05 09:16:03,248 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:16:06,688 | DEBUG: proc1 Excel Size 259383
+2024-09-05 09:16:06,689 | DEBUG: proc1 Backup Size 245352
+2024-09-05 09:16:06,689 | DEBUG: proc1 Save Success
+2024-09-05 09:19:08,018 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:19:08,019 | DEBUG: proc1 Backup Excel
+2024-09-05 09:19:08,025 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:19:11,487 | DEBUG: proc1 Excel Size 273290
+2024-09-05 09:19:11,487 | DEBUG: proc1 Backup Size 259383
+2024-09-05 09:19:11,487 | DEBUG: proc1 Save Success
+2024-09-05 09:22:12,844 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:22:12,845 | DEBUG: proc1 Backup Excel
+2024-09-05 09:22:12,848 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:22:16,474 | DEBUG: proc1 Excel Size 287246
+2024-09-05 09:22:16,475 | DEBUG: proc1 Backup Size 273290
+2024-09-05 09:22:16,475 | DEBUG: proc1 Save Success
+2024-09-05 09:25:17,831 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:25:17,831 | DEBUG: proc1 Backup Excel
+2024-09-05 09:25:17,834 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:25:21,651 | DEBUG: proc1 Excel Size 301220
+2024-09-05 09:25:21,652 | DEBUG: proc1 Backup Size 287246
+2024-09-05 09:25:21,652 | DEBUG: proc1 Save Success
+2024-09-05 09:28:22,998 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:28:22,999 | DEBUG: proc1 Backup Excel
+2024-09-05 09:28:23,003 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:28:26,951 | DEBUG: proc1 Excel Size 315153
+2024-09-05 09:28:26,951 | DEBUG: proc1 Backup Size 301220
+2024-09-05 09:28:26,951 | DEBUG: proc1 Save Success
+2024-09-05 09:31:28,344 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:31:28,344 | DEBUG: proc1 Backup Excel
+2024-09-05 09:31:28,347 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:31:32,485 | DEBUG: proc1 Excel Size 329043
+2024-09-05 09:31:32,485 | DEBUG: proc1 Backup Size 315153
+2024-09-05 09:31:32,485 | DEBUG: proc1 Save Success
+2024-09-05 09:34:33,861 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:34:33,861 | DEBUG: proc1 Backup Excel
+2024-09-05 09:34:33,864 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:34:38,148 | DEBUG: proc1 Excel Size 342861
+2024-09-05 09:34:38,149 | DEBUG: proc1 Backup Size 329043
+2024-09-05 09:34:38,149 | DEBUG: proc1 Save Success
+2024-09-05 09:37:39,593 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:37:39,593 | DEBUG: proc1 Backup Excel
+2024-09-05 09:37:39,596 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:37:44,043 | DEBUG: proc1 Excel Size 356769
+2024-09-05 09:37:44,044 | DEBUG: proc1 Backup Size 342861
+2024-09-05 09:37:44,044 | DEBUG: proc1 Save Success
+2024-09-05 09:40:45,373 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:40:45,373 | DEBUG: proc1 Backup Excel
+2024-09-05 09:40:45,376 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:40:49,912 | DEBUG: proc1 Excel Size 370700
+2024-09-05 09:40:49,912 | DEBUG: proc1 Backup Size 356769
+2024-09-05 09:40:49,913 | DEBUG: proc1 Save Success
+2024-09-05 09:43:51,323 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:43:51,323 | DEBUG: proc1 Backup Excel
+2024-09-05 09:43:51,327 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:43:56,114 | DEBUG: proc1 Excel Size 384566
+2024-09-05 09:43:56,114 | DEBUG: proc1 Backup Size 370700
+2024-09-05 09:43:56,115 | DEBUG: proc1 Save Success
+2024-09-05 09:46:57,408 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:46:57,408 | DEBUG: proc1 Backup Excel
+2024-09-05 09:46:57,411 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:47:02,433 | DEBUG: proc1 Excel Size 398408
+2024-09-05 09:47:02,434 | DEBUG: proc1 Backup Size 384566
+2024-09-05 09:47:02,434 | DEBUG: proc1 Save Success
+2024-09-05 09:50:03,722 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:50:03,723 | DEBUG: proc1 Backup Excel
+2024-09-05 09:50:03,725 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:50:08,797 | DEBUG: proc1 Excel Size 412215
+2024-09-05 09:50:08,797 | DEBUG: proc1 Backup Size 398408
+2024-09-05 09:50:08,798 | DEBUG: proc1 Save Success
+2024-09-05 09:53:10,107 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:53:10,108 | DEBUG: proc1 Backup Excel
+2024-09-05 09:53:10,111 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:53:15,374 | DEBUG: proc1 Excel Size 426112
+2024-09-05 09:53:15,374 | DEBUG: proc1 Backup Size 412215
+2024-09-05 09:53:15,376 | DEBUG: proc1 Save Success
+2024-09-05 09:56:16,713 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:56:16,713 | DEBUG: proc1 Backup Excel
+2024-09-05 09:56:16,722 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:56:22,013 | DEBUG: proc1 Excel Size 439929
+2024-09-05 09:56:22,013 | DEBUG: proc1 Backup Size 426112
+2024-09-05 09:56:22,013 | DEBUG: proc1 Save Success
+2024-09-05 09:59:23,252 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 09:59:23,253 | DEBUG: proc1 Backup Excel
+2024-09-05 09:59:23,256 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 09:59:28,885 | DEBUG: proc1 Excel Size 453856
+2024-09-05 09:59:28,885 | DEBUG: proc1 Backup Size 439929
+2024-09-05 09:59:28,885 | DEBUG: proc1 Save Success
+2024-09-05 10:02:30,186 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:02:30,186 | DEBUG: proc1 Backup Excel
+2024-09-05 10:02:30,189 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:02:35,806 | DEBUG: proc1 Excel Size 467763
+2024-09-05 10:02:35,807 | DEBUG: proc1 Backup Size 453856
+2024-09-05 10:02:35,827 | DEBUG: proc1 Save Success
+2024-09-05 10:05:37,199 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:05:37,199 | DEBUG: proc1 Backup Excel
+2024-09-05 10:05:37,203 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:05:42,999 | DEBUG: proc1 Excel Size 481586
+2024-09-05 10:05:43,000 | DEBUG: proc1 Backup Size 467763
+2024-09-05 10:05:43,000 | DEBUG: proc1 Save Success
+2024-09-05 10:08:44,245 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:08:44,246 | DEBUG: proc1 Backup Excel
+2024-09-05 10:08:44,249 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:08:50,358 | DEBUG: proc1 Excel Size 495558
+2024-09-05 10:08:50,358 | DEBUG: proc1 Backup Size 481586
+2024-09-05 10:08:50,358 | DEBUG: proc1 Save Success
+2024-09-05 10:11:51,696 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:11:51,697 | DEBUG: proc1 Backup Excel
+2024-09-05 10:11:51,700 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:11:57,902 | DEBUG: proc1 Excel Size 509705
+2024-09-05 10:11:57,902 | DEBUG: proc1 Backup Size 495558
+2024-09-05 10:11:57,903 | DEBUG: proc1 Save Success
+2024-09-05 10:14:59,084 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:14:59,085 | DEBUG: proc1 Backup Excel
+2024-09-05 10:14:59,089 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:15:05,662 | DEBUG: proc1 Excel Size 524124
+2024-09-05 10:15:05,662 | DEBUG: proc1 Backup Size 509705
+2024-09-05 10:15:05,662 | DEBUG: proc1 Save Success
+2024-09-05 10:18:06,951 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:18:06,952 | DEBUG: proc1 Backup Excel
+2024-09-05 10:18:06,956 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:18:13,445 | DEBUG: proc1 Excel Size 538674
+2024-09-05 10:18:13,445 | DEBUG: proc1 Backup Size 524124
+2024-09-05 10:18:13,445 | DEBUG: proc1 Save Success
+2024-09-05 10:21:14,893 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:21:14,893 | DEBUG: proc1 Backup Excel
+2024-09-05 10:21:14,897 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:21:21,415 | DEBUG: proc1 Excel Size 553105
+2024-09-05 10:21:21,416 | DEBUG: proc1 Backup Size 538674
+2024-09-05 10:21:21,416 | DEBUG: proc1 Save Success
+2024-09-05 10:24:22,695 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:24:22,695 | DEBUG: proc1 Backup Excel
+2024-09-05 10:24:22,699 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:24:29,489 | DEBUG: proc1 Excel Size 567476
+2024-09-05 10:24:29,489 | DEBUG: proc1 Backup Size 553105
+2024-09-05 10:24:29,490 | DEBUG: proc1 Save Success
+2024-09-05 10:27:30,750 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:27:30,750 | DEBUG: proc1 Backup Excel
+2024-09-05 10:27:30,754 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:27:37,801 | DEBUG: proc1 Excel Size 581830
+2024-09-05 10:27:37,801 | DEBUG: proc1 Backup Size 567476
+2024-09-05 10:27:37,801 | DEBUG: proc1 Save Success
+2024-09-05 10:30:39,346 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:30:39,347 | DEBUG: proc1 Backup Excel
+2024-09-05 10:30:39,351 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:30:46,526 | DEBUG: proc1 Excel Size 596193
+2024-09-05 10:30:46,526 | DEBUG: proc1 Backup Size 581830
+2024-09-05 10:30:46,527 | DEBUG: proc1 Save Success
+2024-09-05 10:33:47,769 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:33:47,770 | DEBUG: proc1 Backup Excel
+2024-09-05 10:33:47,775 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:33:55,116 | DEBUG: proc1 Excel Size 610585
+2024-09-05 10:33:55,116 | DEBUG: proc1 Backup Size 596193
+2024-09-05 10:33:55,116 | DEBUG: proc1 Save Success
+2024-09-05 10:36:56,373 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:36:56,373 | DEBUG: proc1 Backup Excel
+2024-09-05 10:36:56,378 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:37:03,959 | DEBUG: proc1 Excel Size 625019
+2024-09-05 10:37:03,959 | DEBUG: proc1 Backup Size 610585
+2024-09-05 10:37:03,960 | DEBUG: proc1 Save Success
+2024-09-05 10:40:09,474 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:40:09,474 | DEBUG: proc1 Backup Excel
+2024-09-05 10:40:09,484 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:40:17,187 | DEBUG: proc1 Excel Size 639860
+2024-09-05 10:40:17,187 | DEBUG: proc1 Backup Size 625019
+2024-09-05 10:40:17,188 | DEBUG: proc1 Save Success
+2024-09-05 10:43:18,466 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:43:18,467 | DEBUG: proc1 Backup Excel
+2024-09-05 10:43:18,478 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:43:26,386 | DEBUG: proc1 Excel Size 654239
+2024-09-05 10:43:26,386 | DEBUG: proc1 Backup Size 639860
+2024-09-05 10:43:26,386 | DEBUG: proc1 Save Success
+2024-09-05 10:46:27,625 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:46:27,626 | DEBUG: proc1 Backup Excel
+2024-09-05 10:46:27,630 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:46:35,769 | DEBUG: proc1 Excel Size 668583
+2024-09-05 10:46:35,769 | DEBUG: proc1 Backup Size 654239
+2024-09-05 10:46:35,770 | DEBUG: proc1 Save Success
+2024-09-05 10:49:37,124 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:49:37,125 | DEBUG: proc1 Backup Excel
+2024-09-05 10:49:37,136 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:49:45,357 | DEBUG: proc1 Excel Size 682951
+2024-09-05 10:49:45,358 | DEBUG: proc1 Backup Size 668583
+2024-09-05 10:49:45,358 | DEBUG: proc1 Save Success
+2024-09-05 10:52:46,592 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:52:46,593 | DEBUG: proc1 Backup Excel
+2024-09-05 10:52:46,603 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:52:55,192 | DEBUG: proc1 Excel Size 697403
+2024-09-05 10:52:55,193 | DEBUG: proc1 Backup Size 682951
+2024-09-05 10:52:55,193 | DEBUG: proc1 Save Success
+2024-09-05 10:55:56,425 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:55:56,425 | DEBUG: proc1 Backup Excel
+2024-09-05 10:55:56,430 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:56:04,965 | DEBUG: proc1 Excel Size 711787
+2024-09-05 10:56:04,965 | DEBUG: proc1 Backup Size 697403
+2024-09-05 10:56:04,965 | DEBUG: proc1 Save Success
+2024-09-05 10:59:06,298 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 10:59:06,298 | DEBUG: proc1 Backup Excel
+2024-09-05 10:59:06,302 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 10:59:15,251 | DEBUG: proc1 Excel Size 726053
+2024-09-05 10:59:15,251 | DEBUG: proc1 Backup Size 711787
+2024-09-05 10:59:15,251 | DEBUG: proc1 Save Success
+2024-09-05 11:02:16,473 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:02:16,474 | DEBUG: proc1 Backup Excel
+2024-09-05 11:02:16,481 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:02:25,345 | DEBUG: proc1 Excel Size 740482
+2024-09-05 11:02:25,346 | DEBUG: proc1 Backup Size 726053
+2024-09-05 11:02:25,346 | DEBUG: proc1 Save Success
+2024-09-05 11:05:26,734 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:05:26,735 | DEBUG: proc1 Backup Excel
+2024-09-05 11:05:26,742 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:05:35,989 | DEBUG: proc1 Excel Size 754784
+2024-09-05 11:05:35,989 | DEBUG: proc1 Backup Size 740482
+2024-09-05 11:05:35,989 | DEBUG: proc1 Save Success
+2024-09-05 11:08:37,217 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:08:37,218 | DEBUG: proc1 Backup Excel
+2024-09-05 11:08:37,222 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:08:46,335 | DEBUG: proc1 Excel Size 769132
+2024-09-05 11:08:46,336 | DEBUG: proc1 Backup Size 754784
+2024-09-05 11:08:46,336 | DEBUG: proc1 Save Success
+2024-09-05 11:11:47,818 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:11:47,818 | DEBUG: proc1 Backup Excel
+2024-09-05 11:11:47,823 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:11:57,226 | DEBUG: proc1 Excel Size 783589
+2024-09-05 11:11:57,226 | DEBUG: proc1 Backup Size 769132
+2024-09-05 11:11:57,227 | DEBUG: proc1 Save Success
+2024-09-05 11:14:58,510 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:14:58,510 | DEBUG: proc1 Backup Excel
+2024-09-05 11:14:58,515 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:15:08,225 | DEBUG: proc1 Excel Size 797983
+2024-09-05 11:15:08,225 | DEBUG: proc1 Backup Size 783589
+2024-09-05 11:15:08,225 | DEBUG: proc1 Save Success
+2024-09-05 11:18:09,493 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:18:09,493 | DEBUG: proc1 Backup Excel
+2024-09-05 11:18:09,498 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:18:19,352 | DEBUG: proc1 Excel Size 812346
+2024-09-05 11:18:19,352 | DEBUG: proc1 Backup Size 797983
+2024-09-05 11:18:19,352 | DEBUG: proc1 Save Success
+2024-09-05 11:21:20,627 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:21:20,627 | DEBUG: proc1 Backup Excel
+2024-09-05 11:21:20,632 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:21:30,588 | DEBUG: proc1 Excel Size 826623
+2024-09-05 11:21:30,589 | DEBUG: proc1 Backup Size 812346
+2024-09-05 11:21:30,589 | DEBUG: proc1 Save Success
+2024-09-05 11:24:31,973 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:24:31,973 | DEBUG: proc1 Backup Excel
+2024-09-05 11:24:31,978 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:24:42,089 | DEBUG: proc1 Excel Size 840937
+2024-09-05 11:24:42,089 | DEBUG: proc1 Backup Size 826623
+2024-09-05 11:24:42,090 | DEBUG: proc1 Save Success
+2024-09-05 11:27:43,343 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:27:43,343 | DEBUG: proc1 Backup Excel
+2024-09-05 11:27:43,348 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:27:53,644 | DEBUG: proc1 Excel Size 855169
+2024-09-05 11:27:53,644 | DEBUG: proc1 Backup Size 840937
+2024-09-05 11:27:53,644 | DEBUG: proc1 Save Success
+2024-09-05 11:30:54,916 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:30:54,916 | DEBUG: proc1 Backup Excel
+2024-09-05 11:30:54,922 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:31:05,448 | DEBUG: proc1 Excel Size 869467
+2024-09-05 11:31:05,449 | DEBUG: proc1 Backup Size 855169
+2024-09-05 11:31:05,449 | DEBUG: proc1 Save Success
+2024-09-05 11:34:06,768 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:34:06,769 | DEBUG: proc1 Backup Excel
+2024-09-05 11:34:06,781 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:34:17,512 | DEBUG: proc1 Excel Size 883862
+2024-09-05 11:34:17,513 | DEBUG: proc1 Backup Size 869467
+2024-09-05 11:34:17,513 | DEBUG: proc1 Save Success
+2024-09-05 11:37:18,797 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:37:18,797 | DEBUG: proc1 Backup Excel
+2024-09-05 11:37:18,803 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:37:29,637 | DEBUG: proc1 Excel Size 898250
+2024-09-05 11:37:29,638 | DEBUG: proc1 Backup Size 883862
+2024-09-05 11:37:29,638 | DEBUG: proc1 Save Success
+2024-09-05 11:40:30,868 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:40:30,869 | DEBUG: proc1 Backup Excel
+2024-09-05 11:40:30,874 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:40:41,688 | DEBUG: proc1 Excel Size 912513
+2024-09-05 11:40:41,689 | DEBUG: proc1 Backup Size 898250
+2024-09-05 11:40:41,689 | DEBUG: proc1 Save Success
+2024-09-05 11:43:42,931 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:43:42,932 | DEBUG: proc1 Backup Excel
+2024-09-05 11:43:42,937 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:43:54,213 | DEBUG: proc1 Excel Size 926864
+2024-09-05 11:43:54,214 | DEBUG: proc1 Backup Size 912513
+2024-09-05 11:43:54,214 | DEBUG: proc1 Save Success
+2024-09-05 11:46:55,573 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:46:55,574 | DEBUG: proc1 Backup Excel
+2024-09-05 11:46:55,580 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:47:06,871 | DEBUG: proc1 Excel Size 941270
+2024-09-05 11:47:06,871 | DEBUG: proc1 Backup Size 926864
+2024-09-05 11:47:06,872 | DEBUG: proc1 Save Success
+2024-09-05 11:50:08,152 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:50:08,152 | DEBUG: proc1 Backup Excel
+2024-09-05 11:50:08,158 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:50:19,606 | DEBUG: proc1 Excel Size 955701
+2024-09-05 11:50:19,606 | DEBUG: proc1 Backup Size 941270
+2024-09-05 11:50:19,607 | DEBUG: proc1 Save Success
+2024-09-05 11:53:20,992 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:53:20,992 | DEBUG: proc1 Backup Excel
+2024-09-05 11:53:20,998 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:53:32,655 | DEBUG: proc1 Excel Size 970013
+2024-09-05 11:53:32,655 | DEBUG: proc1 Backup Size 955701
+2024-09-05 11:53:32,655 | DEBUG: proc1 Save Success
+2024-09-05 11:56:34,023 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:56:34,023 | DEBUG: proc1 Backup Excel
+2024-09-05 11:56:34,029 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:56:45,874 | DEBUG: proc1 Excel Size 984286
+2024-09-05 11:56:45,875 | DEBUG: proc1 Backup Size 970013
+2024-09-05 11:56:45,875 | DEBUG: proc1 Save Success
+2024-09-05 11:59:47,196 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 11:59:47,196 | DEBUG: proc1 Backup Excel
+2024-09-05 11:59:47,202 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 11:59:59,110 | DEBUG: proc1 Excel Size 998660
+2024-09-05 11:59:59,110 | DEBUG: proc1 Backup Size 984286
+2024-09-05 11:59:59,110 | DEBUG: proc1 Save Success
+2024-09-05 12:03:00,420 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:03:00,420 | DEBUG: proc1 Backup Excel
+2024-09-05 12:03:00,429 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:03:12,636 | DEBUG: proc1 Excel Size 1013153
+2024-09-05 12:03:12,636 | DEBUG: proc1 Backup Size 998660
+2024-09-05 12:03:12,636 | DEBUG: proc1 Save Success
+2024-09-05 12:06:13,980 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:06:13,980 | DEBUG: proc1 Backup Excel
+2024-09-05 12:06:13,987 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:06:26,366 | DEBUG: proc1 Excel Size 1027461
+2024-09-05 12:06:26,366 | DEBUG: proc1 Backup Size 1013153
+2024-09-05 12:06:26,387 | DEBUG: proc1 Save Success
+2024-09-05 12:09:27,637 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:09:27,638 | DEBUG: proc1 Backup Excel
+2024-09-05 12:09:27,647 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:09:40,071 | DEBUG: proc1 Excel Size 1041839
+2024-09-05 12:09:40,071 | DEBUG: proc1 Backup Size 1027461
+2024-09-05 12:09:40,071 | DEBUG: proc1 Save Success
+2024-09-05 12:12:41,408 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:12:41,409 | DEBUG: proc1 Backup Excel
+2024-09-05 12:12:41,416 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:12:54,007 | DEBUG: proc1 Excel Size 1056154
+2024-09-05 12:12:54,008 | DEBUG: proc1 Backup Size 1041839
+2024-09-05 12:12:54,008 | DEBUG: proc1 Save Success
+2024-09-05 12:15:55,290 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:15:55,290 | DEBUG: proc1 Backup Excel
+2024-09-05 12:15:55,296 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:16:08,125 | DEBUG: proc1 Excel Size 1070569
+2024-09-05 12:16:08,126 | DEBUG: proc1 Backup Size 1056154
+2024-09-05 12:16:08,126 | DEBUG: proc1 Save Success
+2024-09-05 12:19:09,404 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:19:09,404 | DEBUG: proc1 Backup Excel
+2024-09-05 12:19:09,411 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:19:22,328 | DEBUG: proc1 Excel Size 1085068
+2024-09-05 12:19:22,329 | DEBUG: proc1 Backup Size 1070569
+2024-09-05 12:19:22,329 | DEBUG: proc1 Save Success
+2024-09-05 12:22:23,696 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:22:23,696 | DEBUG: proc1 Backup Excel
+2024-09-05 12:22:23,703 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:22:36,997 | DEBUG: proc1 Excel Size 1099619
+2024-09-05 12:22:36,997 | DEBUG: proc1 Backup Size 1085068
+2024-09-05 12:22:36,997 | DEBUG: proc1 Save Success
+2024-09-05 12:25:38,279 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:25:38,279 | DEBUG: proc1 Backup Excel
+2024-09-05 12:25:38,287 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:25:51,873 | DEBUG: proc1 Excel Size 1114140
+2024-09-05 12:25:51,873 | DEBUG: proc1 Backup Size 1099619
+2024-09-05 12:25:51,874 | DEBUG: proc1 Save Success
+2024-09-05 12:28:53,463 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:28:53,464 | DEBUG: proc1 Backup Excel
+2024-09-05 12:28:53,470 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:29:06,934 | DEBUG: proc1 Excel Size 1128613
+2024-09-05 12:29:06,934 | DEBUG: proc1 Backup Size 1114140
+2024-09-05 12:29:06,934 | DEBUG: proc1 Save Success
+2024-09-05 12:32:08,224 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:32:08,225 | DEBUG: proc1 Backup Excel
+2024-09-05 12:32:08,231 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:32:21,927 | DEBUG: proc1 Excel Size 1143119
+2024-09-05 12:32:21,927 | DEBUG: proc1 Backup Size 1128613
+2024-09-05 12:32:21,928 | DEBUG: proc1 Save Success
+2024-09-05 12:35:23,234 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:35:23,234 | DEBUG: proc1 Backup Excel
+2024-09-05 12:35:23,241 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:35:36,675 | DEBUG: proc1 Excel Size 1157524
+2024-09-05 12:35:36,676 | DEBUG: proc1 Backup Size 1143119
+2024-09-05 12:35:36,676 | DEBUG: proc1 Save Success
+2024-09-05 12:38:37,974 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:38:37,975 | DEBUG: proc1 Backup Excel
+2024-09-05 12:38:37,981 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:38:51,948 | DEBUG: proc1 Excel Size 1171963
+2024-09-05 12:38:51,949 | DEBUG: proc1 Backup Size 1157524
+2024-09-05 12:38:51,949 | DEBUG: proc1 Save Success
+2024-09-05 12:41:53,304 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:41:53,304 | DEBUG: proc1 Backup Excel
+2024-09-05 12:41:53,312 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:42:07,357 | DEBUG: proc1 Excel Size 1186342
+2024-09-05 12:42:07,358 | DEBUG: proc1 Backup Size 1171963
+2024-09-05 12:42:07,358 | DEBUG: proc1 Save Success
+2024-09-05 12:45:08,652 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:45:08,652 | DEBUG: proc1 Backup Excel
+2024-09-05 12:45:08,659 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:45:22,956 | DEBUG: proc1 Excel Size 1200785
+2024-09-05 12:45:22,956 | DEBUG: proc1 Backup Size 1186342
+2024-09-05 12:45:22,956 | DEBUG: proc1 Save Success
+2024-09-05 12:48:24,294 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:48:24,295 | DEBUG: proc1 Backup Excel
+2024-09-05 12:48:24,310 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:48:38,752 | DEBUG: proc1 Excel Size 1215227
+2024-09-05 12:48:38,752 | DEBUG: proc1 Backup Size 1200785
+2024-09-05 12:48:38,752 | DEBUG: proc1 Save Success
+2024-09-05 12:51:40,102 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:51:40,103 | DEBUG: proc1 Backup Excel
+2024-09-05 12:51:40,110 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:51:54,591 | DEBUG: proc1 Excel Size 1229583
+2024-09-05 12:51:54,591 | DEBUG: proc1 Backup Size 1215227
+2024-09-05 12:51:54,592 | DEBUG: proc1 Save Success
+2024-09-05 12:54:55,898 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:54:55,898 | DEBUG: proc1 Backup Excel
+2024-09-05 12:54:55,905 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:55:10,789 | DEBUG: proc1 Excel Size 1243933
+2024-09-05 12:55:10,790 | DEBUG: proc1 Backup Size 1229583
+2024-09-05 12:55:10,790 | DEBUG: proc1 Save Success
+2024-09-05 12:58:12,129 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 12:58:12,129 | DEBUG: proc1 Backup Excel
+2024-09-05 12:58:12,136 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 12:58:27,086 | DEBUG: proc1 Excel Size 1258444
+2024-09-05 12:58:27,086 | DEBUG: proc1 Backup Size 1243933
+2024-09-05 12:58:27,086 | DEBUG: proc1 Save Success
+2024-09-05 13:01:28,317 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:01:28,317 | DEBUG: proc1 Backup Excel
+2024-09-05 13:01:28,325 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:01:43,458 | DEBUG: proc1 Excel Size 1272915
+2024-09-05 13:01:43,459 | DEBUG: proc1 Backup Size 1258444
+2024-09-05 13:01:43,459 | DEBUG: proc1 Save Success
+2024-09-05 13:04:44,702 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:04:44,703 | DEBUG: proc1 Backup Excel
+2024-09-05 13:04:44,710 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:05:00,124 | DEBUG: proc1 Excel Size 1287324
+2024-09-05 13:05:00,124 | DEBUG: proc1 Backup Size 1272915
+2024-09-05 13:05:00,125 | DEBUG: proc1 Save Success
+2024-09-05 13:08:01,492 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:08:01,493 | DEBUG: proc1 Backup Excel
+2024-09-05 13:08:01,501 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:08:16,977 | DEBUG: proc1 Excel Size 1301644
+2024-09-05 13:08:16,977 | DEBUG: proc1 Backup Size 1287324
+2024-09-05 13:08:16,977 | DEBUG: proc1 Save Success
+2024-09-05 13:11:18,276 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:11:18,277 | DEBUG: proc1 Backup Excel
+2024-09-05 13:11:18,285 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:11:33,913 | DEBUG: proc1 Excel Size 1315998
+2024-09-05 13:11:33,914 | DEBUG: proc1 Backup Size 1301644
+2024-09-05 13:11:33,914 | DEBUG: proc1 Save Success
+2024-09-05 13:14:35,233 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:14:35,233 | DEBUG: proc1 Backup Excel
+2024-09-05 13:14:35,242 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:14:51,018 | DEBUG: proc1 Excel Size 1330329
+2024-09-05 13:14:51,018 | DEBUG: proc1 Backup Size 1315998
+2024-09-05 13:14:51,019 | DEBUG: proc1 Save Success
+2024-09-05 13:17:52,333 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:17:52,333 | DEBUG: proc1 Backup Excel
+2024-09-05 13:17:52,352 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:18:08,152 | DEBUG: proc1 Excel Size 1344708
+2024-09-05 13:18:08,152 | DEBUG: proc1 Backup Size 1330329
+2024-09-05 13:18:08,152 | DEBUG: proc1 Save Success
+2024-09-05 13:21:09,425 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:21:09,425 | DEBUG: proc1 Backup Excel
+2024-09-05 13:21:09,433 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:21:25,963 | DEBUG: proc1 Excel Size 1359154
+2024-09-05 13:21:25,963 | DEBUG: proc1 Backup Size 1344708
+2024-09-05 13:21:25,963 | DEBUG: proc1 Save Success
+2024-09-05 13:24:27,293 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:24:27,293 | DEBUG: proc1 Backup Excel
+2024-09-05 13:24:27,301 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:24:43,240 | DEBUG: proc1 Excel Size 1373567
+2024-09-05 13:24:43,240 | DEBUG: proc1 Backup Size 1359154
+2024-09-05 13:24:43,241 | DEBUG: proc1 Save Success
+2024-09-05 13:27:44,583 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:27:44,583 | DEBUG: proc1 Backup Excel
+2024-09-05 13:27:44,591 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:28:01,430 | DEBUG: proc1 Excel Size 1387951
+2024-09-05 13:28:01,430 | DEBUG: proc1 Backup Size 1373567
+2024-09-05 13:28:01,430 | DEBUG: proc1 Save Success
+2024-09-05 13:31:02,746 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:31:02,746 | DEBUG: proc1 Backup Excel
+2024-09-05 13:31:02,754 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:31:19,314 | DEBUG: proc1 Excel Size 1402335
+2024-09-05 13:31:19,314 | DEBUG: proc1 Backup Size 1387951
+2024-09-05 13:31:19,314 | DEBUG: proc1 Save Success
+2024-09-05 13:34:20,573 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:34:20,574 | DEBUG: proc1 Backup Excel
+2024-09-05 13:34:20,582 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:34:37,340 | DEBUG: proc1 Excel Size 1416630
+2024-09-05 13:34:37,341 | DEBUG: proc1 Backup Size 1402335
+2024-09-05 13:34:37,341 | DEBUG: proc1 Save Success
+2024-09-05 13:37:38,736 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:37:38,736 | DEBUG: proc1 Backup Excel
+2024-09-05 13:37:38,745 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:37:55,725 | DEBUG: proc1 Excel Size 1431117
+2024-09-05 13:37:55,725 | DEBUG: proc1 Backup Size 1416630
+2024-09-05 13:37:55,726 | DEBUG: proc1 Save Success
+2024-09-05 13:40:57,085 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:40:57,085 | DEBUG: proc1 Backup Excel
+2024-09-05 13:40:57,093 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:41:14,274 | DEBUG: proc1 Excel Size 1445486
+2024-09-05 13:41:14,274 | DEBUG: proc1 Backup Size 1431117
+2024-09-05 13:41:14,274 | DEBUG: proc1 Save Success
+2024-09-05 13:44:15,615 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:44:15,616 | DEBUG: proc1 Backup Excel
+2024-09-05 13:44:15,625 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:44:32,784 | DEBUG: proc1 Excel Size 1459826
+2024-09-05 13:44:32,785 | DEBUG: proc1 Backup Size 1445486
+2024-09-05 13:44:32,785 | DEBUG: proc1 Save Success
+2024-09-05 13:47:34,052 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:47:34,052 | DEBUG: proc1 Backup Excel
+2024-09-05 13:47:34,060 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:47:51,469 | DEBUG: proc1 Excel Size 1474140
+2024-09-05 13:47:51,469 | DEBUG: proc1 Backup Size 1459826
+2024-09-05 13:47:51,469 | DEBUG: proc1 Save Success
+2024-09-05 13:50:52,850 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:50:52,851 | DEBUG: proc1 Backup Excel
+2024-09-05 13:50:52,859 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:51:10,689 | DEBUG: proc1 Excel Size 1488575
+2024-09-05 13:51:10,690 | DEBUG: proc1 Backup Size 1474140
+2024-09-05 13:51:10,690 | DEBUG: proc1 Save Success
+2024-09-05 13:54:12,025 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:54:12,025 | DEBUG: proc1 Backup Excel
+2024-09-05 13:54:12,034 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:54:29,754 | DEBUG: proc1 Excel Size 1503007
+2024-09-05 13:54:29,755 | DEBUG: proc1 Backup Size 1488575
+2024-09-05 13:54:29,755 | DEBUG: proc1 Save Success
+2024-09-05 13:57:31,032 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 13:57:31,032 | DEBUG: proc1 Backup Excel
+2024-09-05 13:57:31,041 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 13:57:48,980 | DEBUG: proc1 Excel Size 1517422
+2024-09-05 13:57:48,980 | DEBUG: proc1 Backup Size 1503007
+2024-09-05 13:57:48,981 | DEBUG: proc1 Save Success
+2024-09-05 14:00:50,329 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:00:50,330 | DEBUG: proc1 Backup Excel
+2024-09-05 14:00:50,341 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:01:08,344 | DEBUG: proc1 Excel Size 1531851
+2024-09-05 14:01:08,345 | DEBUG: proc1 Backup Size 1517422
+2024-09-05 14:01:08,345 | DEBUG: proc1 Save Success
+2024-09-05 14:04:09,672 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:04:09,672 | DEBUG: proc1 Backup Excel
+2024-09-05 14:04:09,682 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:04:27,925 | DEBUG: proc1 Excel Size 1546337
+2024-09-05 14:04:27,926 | DEBUG: proc1 Backup Size 1531851
+2024-09-05 14:04:27,926 | DEBUG: proc1 Save Success
+2024-09-05 14:07:29,160 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:07:29,161 | DEBUG: proc1 Backup Excel
+2024-09-05 14:07:29,169 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:07:47,595 | DEBUG: proc1 Excel Size 1560725
+2024-09-05 14:07:47,595 | DEBUG: proc1 Backup Size 1546337
+2024-09-05 14:07:47,595 | DEBUG: proc1 Save Success
+2024-09-05 14:10:48,937 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:10:48,937 | DEBUG: proc1 Backup Excel
+2024-09-05 14:10:48,949 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:11:07,522 | DEBUG: proc1 Excel Size 1575109
+2024-09-05 14:11:07,522 | DEBUG: proc1 Backup Size 1560725
+2024-09-05 14:11:07,523 | DEBUG: proc1 Save Success
+2024-09-05 14:14:08,907 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:14:08,908 | DEBUG: proc1 Backup Excel
+2024-09-05 14:14:08,917 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:14:27,714 | DEBUG: proc1 Excel Size 1589461
+2024-09-05 14:14:27,714 | DEBUG: proc1 Backup Size 1575109
+2024-09-05 14:14:27,714 | DEBUG: proc1 Save Success
+2024-09-05 14:17:29,141 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:17:29,141 | DEBUG: proc1 Backup Excel
+2024-09-05 14:17:29,151 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:17:47,990 | DEBUG: proc1 Excel Size 1603863
+2024-09-05 14:17:47,990 | DEBUG: proc1 Backup Size 1589461
+2024-09-05 14:17:47,991 | DEBUG: proc1 Save Success
+2024-09-05 14:20:49,340 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:20:49,340 | DEBUG: proc1 Backup Excel
+2024-09-05 14:20:49,350 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:21:08,361 | DEBUG: proc1 Excel Size 1618295
+2024-09-05 14:21:08,361 | DEBUG: proc1 Backup Size 1603863
+2024-09-05 14:21:08,362 | DEBUG: proc1 Save Success
+2024-09-05 14:24:09,683 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:24:09,684 | DEBUG: proc1 Backup Excel
+2024-09-05 14:24:09,694 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:24:29,236 | DEBUG: proc1 Excel Size 1632675
+2024-09-05 14:24:29,237 | DEBUG: proc1 Backup Size 1618295
+2024-09-05 14:24:29,237 | DEBUG: proc1 Save Success
+2024-09-05 14:27:30,575 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:27:30,575 | DEBUG: proc1 Backup Excel
+2024-09-05 14:27:30,585 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:27:49,971 | DEBUG: proc1 Excel Size 1647349
+2024-09-05 14:27:49,972 | DEBUG: proc1 Backup Size 1632675
+2024-09-05 14:27:49,972 | DEBUG: proc1 Save Success
+2024-09-05 14:30:51,411 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:30:51,411 | DEBUG: proc1 Backup Excel
+2024-09-05 14:30:51,421 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:31:11,159 | DEBUG: proc1 Excel Size 1661785
+2024-09-05 14:31:11,159 | DEBUG: proc1 Backup Size 1647349
+2024-09-05 14:31:11,159 | DEBUG: proc1 Save Success
+2024-09-05 14:34:12,445 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:34:12,445 | DEBUG: proc1 Backup Excel
+2024-09-05 14:34:12,455 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:34:32,083 | DEBUG: proc1 Excel Size 1676207
+2024-09-05 14:34:32,083 | DEBUG: proc1 Backup Size 1661785
+2024-09-05 14:34:32,083 | DEBUG: proc1 Save Success
+2024-09-05 14:37:33,392 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:37:33,392 | DEBUG: proc1 Backup Excel
+2024-09-05 14:37:33,402 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:37:53,334 | DEBUG: proc1 Excel Size 1690639
+2024-09-05 14:37:53,334 | DEBUG: proc1 Backup Size 1676207
+2024-09-05 14:37:53,335 | DEBUG: proc1 Save Success
+2024-09-05 14:40:54,676 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:40:54,677 | DEBUG: proc1 Backup Excel
+2024-09-05 14:40:54,694 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:41:14,779 | DEBUG: proc1 Excel Size 1705037
+2024-09-05 14:41:14,780 | DEBUG: proc1 Backup Size 1690639
+2024-09-05 14:41:14,780 | DEBUG: proc1 Save Success
+2024-09-05 14:44:16,090 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:44:16,091 | DEBUG: proc1 Backup Excel
+2024-09-05 14:44:16,101 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:44:36,324 | DEBUG: proc1 Excel Size 1719486
+2024-09-05 14:44:36,324 | DEBUG: proc1 Backup Size 1705037
+2024-09-05 14:44:36,325 | DEBUG: proc1 Save Success
+2024-09-05 14:47:37,644 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:47:37,644 | DEBUG: proc1 Backup Excel
+2024-09-05 14:47:37,655 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:47:57,942 | DEBUG: proc1 Excel Size 1733890
+2024-09-05 14:47:57,942 | DEBUG: proc1 Backup Size 1719486
+2024-09-05 14:47:57,942 | DEBUG: proc1 Save Success
+2024-09-05 14:50:59,334 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:50:59,334 | DEBUG: proc1 Backup Excel
+2024-09-05 14:50:59,345 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:51:20,326 | DEBUG: proc1 Excel Size 1748349
+2024-09-05 14:51:20,327 | DEBUG: proc1 Backup Size 1733890
+2024-09-05 14:51:20,327 | DEBUG: proc1 Save Success
+2024-09-05 14:54:21,631 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:54:21,632 | DEBUG: proc1 Backup Excel
+2024-09-05 14:54:21,642 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:54:42,532 | DEBUG: proc1 Excel Size 1762881
+2024-09-05 14:54:42,533 | DEBUG: proc1 Backup Size 1748349
+2024-09-05 14:54:42,533 | DEBUG: proc1 Save Success
+2024-09-05 14:57:43,853 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 14:57:43,854 | DEBUG: proc1 Backup Excel
+2024-09-05 14:57:43,864 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 14:58:04,839 | DEBUG: proc1 Excel Size 1777313
+2024-09-05 14:58:04,839 | DEBUG: proc1 Backup Size 1762881
+2024-09-05 14:58:04,839 | DEBUG: proc1 Save Success
+2024-09-05 15:01:06,116 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:01:06,116 | DEBUG: proc1 Backup Excel
+2024-09-05 15:01:06,126 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:01:27,295 | DEBUG: proc1 Excel Size 1791842
+2024-09-05 15:01:27,296 | DEBUG: proc1 Backup Size 1777313
+2024-09-05 15:01:27,296 | DEBUG: proc1 Save Success
+2024-09-05 15:04:28,684 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:04:28,684 | DEBUG: proc1 Backup Excel
+2024-09-05 15:04:28,694 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:04:49,636 | DEBUG: proc1 Excel Size 1806175
+2024-09-05 15:04:49,637 | DEBUG: proc1 Backup Size 1791842
+2024-09-05 15:04:49,637 | DEBUG: proc1 Save Success
+2024-09-05 15:07:50,921 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:07:50,921 | DEBUG: proc1 Backup Excel
+2024-09-05 15:07:50,931 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:08:12,428 | DEBUG: proc1 Excel Size 1820555
+2024-09-05 15:08:12,429 | DEBUG: proc1 Backup Size 1806175
+2024-09-05 15:08:12,429 | DEBUG: proc1 Save Success
+2024-09-05 15:11:13,758 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:11:13,759 | DEBUG: proc1 Backup Excel
+2024-09-05 15:11:13,772 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:11:35,295 | DEBUG: proc1 Excel Size 1834875
+2024-09-05 15:11:35,296 | DEBUG: proc1 Backup Size 1820555
+2024-09-05 15:11:35,296 | DEBUG: proc1 Save Success
+2024-09-05 15:14:36,655 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:14:36,655 | DEBUG: proc1 Backup Excel
+2024-09-05 15:14:36,666 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:14:58,505 | DEBUG: proc1 Excel Size 1849243
+2024-09-05 15:14:58,506 | DEBUG: proc1 Backup Size 1834875
+2024-09-05 15:14:58,506 | DEBUG: proc1 Save Success
+2024-09-05 15:17:59,806 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:17:59,806 | DEBUG: proc1 Backup Excel
+2024-09-05 15:17:59,829 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:18:21,587 | DEBUG: proc1 Excel Size 1863663
+2024-09-05 15:18:21,587 | DEBUG: proc1 Backup Size 1849243
+2024-09-05 15:18:21,587 | DEBUG: proc1 Save Success
+2024-09-05 15:21:22,998 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:21:22,998 | DEBUG: proc1 Backup Excel
+2024-09-05 15:21:23,009 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:21:45,121 | DEBUG: proc1 Excel Size 1878020
+2024-09-05 15:21:45,122 | DEBUG: proc1 Backup Size 1863663
+2024-09-05 15:21:45,122 | DEBUG: proc1 Save Success
+2024-09-05 15:24:46,358 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:24:46,358 | DEBUG: proc1 Backup Excel
+2024-09-05 15:24:46,378 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:25:08,944 | DEBUG: proc1 Excel Size 1892310
+2024-09-05 15:25:08,944 | DEBUG: proc1 Backup Size 1878020
+2024-09-05 15:25:08,944 | DEBUG: proc1 Save Success
+2024-09-05 15:28:10,231 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:28:10,232 | DEBUG: proc1 Backup Excel
+2024-09-05 15:28:10,243 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:28:32,640 | DEBUG: proc1 Excel Size 1906655
+2024-09-05 15:28:32,640 | DEBUG: proc1 Backup Size 1892310
+2024-09-05 15:28:32,640 | DEBUG: proc1 Save Success
+2024-09-05 15:31:33,929 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:31:33,930 | DEBUG: proc1 Backup Excel
+2024-09-05 15:31:33,942 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:31:56,510 | DEBUG: proc1 Excel Size 1921051
+2024-09-05 15:31:56,511 | DEBUG: proc1 Backup Size 1906655
+2024-09-05 15:31:56,511 | DEBUG: proc1 Save Success
+2024-09-05 15:34:57,902 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:34:57,903 | DEBUG: proc1 Backup Excel
+2024-09-05 15:34:57,915 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:35:20,504 | DEBUG: proc1 Excel Size 1935365
+2024-09-05 15:35:20,504 | DEBUG: proc1 Backup Size 1921051
+2024-09-05 15:35:20,505 | DEBUG: proc1 Save Success
+2024-09-05 15:38:21,829 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:38:21,829 | DEBUG: proc1 Backup Excel
+2024-09-05 15:38:21,842 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:38:45,233 | DEBUG: proc1 Excel Size 1949757
+2024-09-05 15:38:45,233 | DEBUG: proc1 Backup Size 1935365
+2024-09-05 15:38:45,233 | DEBUG: proc1 Save Success
+2024-09-05 15:41:46,573 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:41:46,574 | DEBUG: proc1 Backup Excel
+2024-09-05 15:41:46,585 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:42:09,364 | DEBUG: proc1 Excel Size 1964168
+2024-09-05 15:42:09,365 | DEBUG: proc1 Backup Size 1949757
+2024-09-05 15:42:09,365 | DEBUG: proc1 Save Success
+2024-09-05 15:45:10,662 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:45:10,663 | DEBUG: proc1 Backup Excel
+2024-09-05 15:45:10,676 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:45:34,093 | DEBUG: proc1 Excel Size 1978606
+2024-09-05 15:45:34,093 | DEBUG: proc1 Backup Size 1964168
+2024-09-05 15:45:34,093 | DEBUG: proc1 Save Success
+2024-09-05 15:48:36,348 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:48:36,349 | DEBUG: proc1 Backup Excel
+2024-09-05 15:48:36,360 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:49:00,143 | DEBUG: proc1 Excel Size 1993017
+2024-09-05 15:49:00,143 | DEBUG: proc1 Backup Size 1978606
+2024-09-05 15:49:00,143 | DEBUG: proc1 Save Success
+2024-09-05 15:52:01,489 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:52:01,489 | DEBUG: proc1 Backup Excel
+2024-09-05 15:52:01,500 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:52:25,039 | DEBUG: proc1 Excel Size 2007350
+2024-09-05 15:52:25,040 | DEBUG: proc1 Backup Size 1993017
+2024-09-05 15:52:25,041 | DEBUG: proc1 Save Success
+2024-09-05 15:55:26,343 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:55:26,344 | DEBUG: proc1 Backup Excel
+2024-09-05 15:55:26,356 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:55:50,625 | DEBUG: proc1 Excel Size 2021786
+2024-09-05 15:55:50,625 | DEBUG: proc1 Backup Size 2007350
+2024-09-05 15:55:50,626 | DEBUG: proc1 Save Success
+2024-09-05 15:58:51,926 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 15:58:51,926 | DEBUG: proc1 Backup Excel
+2024-09-05 15:58:51,938 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 15:59:16,063 | DEBUG: proc1 Excel Size 2036114
+2024-09-05 15:59:16,063 | DEBUG: proc1 Backup Size 2021786
+2024-09-05 15:59:16,064 | DEBUG: proc1 Save Success
+2024-09-05 16:02:17,421 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:02:17,421 | DEBUG: proc1 Backup Excel
+2024-09-05 16:02:17,439 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:02:41,408 | DEBUG: proc1 Excel Size 2050601
+2024-09-05 16:02:41,408 | DEBUG: proc1 Backup Size 2036114
+2024-09-05 16:02:41,409 | DEBUG: proc1 Save Success
+2024-09-05 16:05:42,704 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:05:42,704 | DEBUG: proc1 Backup Excel
+2024-09-05 16:05:42,717 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:06:06,813 | DEBUG: proc1 Excel Size 2064996
+2024-09-05 16:06:06,814 | DEBUG: proc1 Backup Size 2050601
+2024-09-05 16:06:06,814 | DEBUG: proc1 Save Success
+2024-09-05 16:09:08,093 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:09:08,093 | DEBUG: proc1 Backup Excel
+2024-09-05 16:09:08,106 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:09:32,609 | DEBUG: proc1 Excel Size 2079328
+2024-09-05 16:09:32,609 | DEBUG: proc1 Backup Size 2064996
+2024-09-05 16:09:32,609 | DEBUG: proc1 Save Success
+2024-09-05 16:12:33,881 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:12:33,882 | DEBUG: proc1 Backup Excel
+2024-09-05 16:12:33,893 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:12:58,199 | DEBUG: proc1 Excel Size 2093679
+2024-09-05 16:12:58,199 | DEBUG: proc1 Backup Size 2079328
+2024-09-05 16:12:58,199 | DEBUG: proc1 Save Success
+2024-09-05 16:15:59,501 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:15:59,501 | DEBUG: proc1 Backup Excel
+2024-09-05 16:15:59,514 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:16:24,533 | DEBUG: proc1 Excel Size 2107976
+2024-09-05 16:16:24,534 | DEBUG: proc1 Backup Size 2093679
+2024-09-05 16:16:24,534 | DEBUG: proc1 Save Success
+2024-09-05 16:19:25,810 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:19:25,811 | DEBUG: proc1 Backup Excel
+2024-09-05 16:19:25,825 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:19:50,938 | DEBUG: proc1 Excel Size 2122320
+2024-09-05 16:19:50,938 | DEBUG: proc1 Backup Size 2107976
+2024-09-05 16:19:50,938 | DEBUG: proc1 Save Success
+2024-09-05 16:22:52,224 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:22:52,224 | DEBUG: proc1 Backup Excel
+2024-09-05 16:22:52,236 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:23:17,573 | DEBUG: proc1 Excel Size 2136701
+2024-09-05 16:23:17,574 | DEBUG: proc1 Backup Size 2122320
+2024-09-05 16:23:17,574 | DEBUG: proc1 Save Success
+2024-09-05 16:26:18,906 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:26:18,907 | DEBUG: proc1 Backup Excel
+2024-09-05 16:26:18,919 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:26:43,842 | DEBUG: proc1 Excel Size 2151150
+2024-09-05 16:26:43,843 | DEBUG: proc1 Backup Size 2136701
+2024-09-05 16:26:43,843 | DEBUG: proc1 Save Success
+2024-09-05 16:29:45,195 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:29:45,195 | DEBUG: proc1 Backup Excel
+2024-09-05 16:29:45,209 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:30:10,516 | DEBUG: proc1 Excel Size 2165461
+2024-09-05 16:30:10,516 | DEBUG: proc1 Backup Size 2151150
+2024-09-05 16:30:10,516 | DEBUG: proc1 Save Success
+2024-09-05 16:33:11,798 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:33:11,798 | DEBUG: proc1 Backup Excel
+2024-09-05 16:33:11,824 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:33:37,760 | DEBUG: proc1 Excel Size 2179845
+2024-09-05 16:33:37,761 | DEBUG: proc1 Backup Size 2165461
+2024-09-05 16:33:37,761 | DEBUG: proc1 Save Success
+2024-09-05 16:36:39,101 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:36:39,101 | DEBUG: proc1 Backup Excel
+2024-09-05 16:36:39,115 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:37:04,761 | DEBUG: proc1 Excel Size 2194309
+2024-09-05 16:37:04,761 | DEBUG: proc1 Backup Size 2179845
+2024-09-05 16:37:04,762 | DEBUG: proc1 Save Success
+2024-09-05 16:40:06,044 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:40:06,044 | DEBUG: proc1 Backup Excel
+2024-09-05 16:40:06,067 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:40:31,975 | DEBUG: proc1 Excel Size 2208779
+2024-09-05 16:40:31,975 | DEBUG: proc1 Backup Size 2194309
+2024-09-05 16:40:31,976 | DEBUG: proc1 Save Success
+2024-09-05 16:43:33,295 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:43:33,296 | DEBUG: proc1 Backup Excel
+2024-09-05 16:43:33,314 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:43:59,902 | DEBUG: proc1 Excel Size 2223163
+2024-09-05 16:43:59,902 | DEBUG: proc1 Backup Size 2208779
+2024-09-05 16:43:59,902 | DEBUG: proc1 Save Success
+2024-09-05 16:47:01,210 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:47:01,211 | DEBUG: proc1 Backup Excel
+2024-09-05 16:47:01,224 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:47:27,119 | DEBUG: proc1 Excel Size 2237593
+2024-09-05 16:47:27,119 | DEBUG: proc1 Backup Size 2223163
+2024-09-05 16:47:27,119 | DEBUG: proc1 Save Success
+2024-09-05 16:50:28,444 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:50:28,445 | DEBUG: proc1 Backup Excel
+2024-09-05 16:50:28,460 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:50:54,690 | DEBUG: proc1 Excel Size 2252069
+2024-09-05 16:50:54,690 | DEBUG: proc1 Backup Size 2237593
+2024-09-05 16:50:54,691 | DEBUG: proc1 Save Success
+2024-09-05 16:53:55,895 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:53:55,895 | DEBUG: proc1 Backup Excel
+2024-09-05 16:53:55,908 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:54:22,399 | DEBUG: proc1 Excel Size 2266496
+2024-09-05 16:54:22,399 | DEBUG: proc1 Backup Size 2252069
+2024-09-05 16:54:22,400 | DEBUG: proc1 Save Success
+2024-09-05 16:57:23,768 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 16:57:23,768 | DEBUG: proc1 Backup Excel
+2024-09-05 16:57:23,782 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 16:57:51,354 | DEBUG: proc1 Excel Size 2281071
+2024-09-05 16:57:51,354 | DEBUG: proc1 Backup Size 2266496
+2024-09-05 16:57:51,355 | DEBUG: proc1 Save Success
+2024-09-05 17:00:52,568 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:00:52,568 | DEBUG: proc1 Backup Excel
+2024-09-05 17:00:52,581 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:01:19,245 | DEBUG: proc1 Excel Size 2295555
+2024-09-05 17:01:19,246 | DEBUG: proc1 Backup Size 2281071
+2024-09-05 17:01:19,246 | DEBUG: proc1 Save Success
+2024-09-05 17:04:20,537 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:04:20,538 | DEBUG: proc1 Backup Excel
+2024-09-05 17:04:20,552 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:04:47,586 | DEBUG: proc1 Excel Size 2309999
+2024-09-05 17:04:47,586 | DEBUG: proc1 Backup Size 2295555
+2024-09-05 17:04:47,587 | DEBUG: proc1 Save Success
+2024-09-05 17:07:48,897 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:07:48,897 | DEBUG: proc1 Backup Excel
+2024-09-05 17:07:48,911 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:08:16,410 | DEBUG: proc1 Excel Size 2324452
+2024-09-05 17:08:16,410 | DEBUG: proc1 Backup Size 2309999
+2024-09-05 17:08:16,431 | DEBUG: proc1 Save Success
+2024-09-05 17:11:17,658 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:11:17,659 | DEBUG: proc1 Backup Excel
+2024-09-05 17:11:17,672 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:11:45,044 | DEBUG: proc1 Excel Size 2338763
+2024-09-05 17:11:45,044 | DEBUG: proc1 Backup Size 2324452
+2024-09-05 17:11:45,044 | DEBUG: proc1 Save Success
+2024-09-05 17:14:46,411 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:14:46,411 | DEBUG: proc1 Backup Excel
+2024-09-05 17:14:46,425 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:15:14,338 | DEBUG: proc1 Excel Size 2353079
+2024-09-05 17:15:14,339 | DEBUG: proc1 Backup Size 2338763
+2024-09-05 17:15:14,339 | DEBUG: proc1 Save Success
+2024-09-05 17:18:15,675 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:18:15,675 | DEBUG: proc1 Backup Excel
+2024-09-05 17:18:15,691 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:18:43,210 | DEBUG: proc1 Excel Size 2367539
+2024-09-05 17:18:43,210 | DEBUG: proc1 Backup Size 2353079
+2024-09-05 17:18:43,211 | DEBUG: proc1 Save Success
+2024-09-05 17:21:44,629 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:21:44,629 | DEBUG: proc1 Backup Excel
+2024-09-05 17:21:44,643 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:22:12,100 | DEBUG: proc1 Excel Size 2381880
+2024-09-05 17:22:12,101 | DEBUG: proc1 Backup Size 2367539
+2024-09-05 17:22:12,101 | DEBUG: proc1 Save Success
+2024-09-05 17:25:13,579 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:25:13,579 | DEBUG: proc1 Backup Excel
+2024-09-05 17:25:13,594 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:25:42,227 | DEBUG: proc1 Excel Size 2396134
+2024-09-05 17:25:42,227 | DEBUG: proc1 Backup Size 2381880
+2024-09-05 17:25:42,227 | DEBUG: proc1 Save Success
+2024-09-05 17:28:43,641 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:28:43,641 | DEBUG: proc1 Backup Excel
+2024-09-05 17:28:43,655 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:29:11,784 | DEBUG: proc1 Excel Size 2410327
+2024-09-05 17:29:11,785 | DEBUG: proc1 Backup Size 2396134
+2024-09-05 17:29:11,785 | DEBUG: proc1 Save Success
+2024-09-05 17:32:13,095 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:32:13,095 | DEBUG: proc1 Backup Excel
+2024-09-05 17:32:13,109 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:32:41,487 | DEBUG: proc1 Excel Size 2424798
+2024-09-05 17:32:41,488 | DEBUG: proc1 Backup Size 2410327
+2024-09-05 17:32:41,488 | DEBUG: proc1 Save Success
+2024-09-05 17:35:42,784 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:35:42,784 | DEBUG: proc1 Backup Excel
+2024-09-05 17:35:42,799 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:36:11,594 | DEBUG: proc1 Excel Size 2439182
+2024-09-05 17:36:11,594 | DEBUG: proc1 Backup Size 2424798
+2024-09-05 17:36:11,594 | DEBUG: proc1 Save Success
+2024-09-05 17:39:12,836 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:39:12,837 | DEBUG: proc1 Backup Excel
+2024-09-05 17:39:12,851 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:39:41,436 | DEBUG: proc1 Excel Size 2453717
+2024-09-05 17:39:41,437 | DEBUG: proc1 Backup Size 2439182
+2024-09-05 17:39:41,437 | DEBUG: proc1 Save Success
+2024-09-05 17:42:42,698 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:42:42,698 | DEBUG: proc1 Backup Excel
+2024-09-05 17:42:42,713 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:43:11,495 | DEBUG: proc1 Excel Size 2468191
+2024-09-05 17:43:11,495 | DEBUG: proc1 Backup Size 2453717
+2024-09-05 17:43:11,495 | DEBUG: proc1 Save Success
+2024-09-05 17:46:12,835 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:46:12,836 | DEBUG: proc1 Backup Excel
+2024-09-05 17:46:12,854 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:46:41,818 | DEBUG: proc1 Excel Size 2482641
+2024-09-05 17:46:41,819 | DEBUG: proc1 Backup Size 2468191
+2024-09-05 17:46:41,819 | DEBUG: proc1 Save Success
+2024-09-05 17:49:43,133 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:49:43,133 | DEBUG: proc1 Backup Excel
+2024-09-05 17:49:43,148 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:50:12,671 | DEBUG: proc1 Excel Size 2496984
+2024-09-05 17:50:12,671 | DEBUG: proc1 Backup Size 2482641
+2024-09-05 17:50:12,671 | DEBUG: proc1 Save Success
+2024-09-05 17:53:14,035 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:53:14,035 | DEBUG: proc1 Backup Excel
+2024-09-05 17:53:14,050 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:53:43,059 | DEBUG: proc1 Excel Size 2511365
+2024-09-05 17:53:43,059 | DEBUG: proc1 Backup Size 2496984
+2024-09-05 17:53:43,059 | DEBUG: proc1 Save Success
+2024-09-05 17:56:44,455 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 17:56:44,456 | DEBUG: proc1 Backup Excel
+2024-09-05 17:56:44,470 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 17:57:14,500 | DEBUG: proc1 Excel Size 2525685
+2024-09-05 17:57:14,500 | DEBUG: proc1 Backup Size 2511365
+2024-09-05 17:57:14,500 | DEBUG: proc1 Save Success
+2024-09-05 18:00:15,911 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:00:15,912 | DEBUG: proc1 Backup Excel
+2024-09-05 18:00:15,926 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:00:45,592 | DEBUG: proc1 Excel Size 2540132
+2024-09-05 18:00:45,593 | DEBUG: proc1 Backup Size 2525685
+2024-09-05 18:00:45,593 | DEBUG: proc1 Save Success
+2024-09-05 18:03:46,879 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:03:46,880 | DEBUG: proc1 Backup Excel
+2024-09-05 18:03:46,894 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:04:17,413 | DEBUG: proc1 Excel Size 2554604
+2024-09-05 18:04:17,413 | DEBUG: proc1 Backup Size 2540132
+2024-09-05 18:04:17,413 | DEBUG: proc1 Save Success
+2024-09-05 18:07:18,729 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:07:18,729 | DEBUG: proc1 Backup Excel
+2024-09-05 18:07:18,743 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:07:48,681 | DEBUG: proc1 Excel Size 2569032
+2024-09-05 18:07:48,681 | DEBUG: proc1 Backup Size 2554604
+2024-09-05 18:07:48,681 | DEBUG: proc1 Save Success
+2024-09-05 18:10:50,000 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:10:50,000 | DEBUG: proc1 Backup Excel
+2024-09-05 18:10:50,015 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:11:20,036 | DEBUG: proc1 Excel Size 2583389
+2024-09-05 18:11:20,037 | DEBUG: proc1 Backup Size 2569032
+2024-09-05 18:11:20,037 | DEBUG: proc1 Save Success
+2024-09-05 18:14:21,382 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:14:21,382 | DEBUG: proc1 Backup Excel
+2024-09-05 18:14:21,397 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:14:52,256 | DEBUG: proc1 Excel Size 2597681
+2024-09-05 18:14:52,257 | DEBUG: proc1 Backup Size 2583389
+2024-09-05 18:14:52,257 | DEBUG: proc1 Save Success
+2024-09-05 18:17:53,521 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:17:53,522 | DEBUG: proc1 Backup Excel
+2024-09-05 18:17:53,537 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:18:23,768 | DEBUG: proc1 Excel Size 2612040
+2024-09-05 18:18:23,768 | DEBUG: proc1 Backup Size 2597681
+2024-09-05 18:18:23,769 | DEBUG: proc1 Save Success
+2024-09-05 18:21:25,147 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:21:25,147 | DEBUG: proc1 Backup Excel
+2024-09-05 18:21:25,173 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:21:56,161 | DEBUG: proc1 Excel Size 2626391
+2024-09-05 18:21:56,161 | DEBUG: proc1 Backup Size 2612040
+2024-09-05 18:21:56,161 | DEBUG: proc1 Save Success
+2024-09-05 18:24:57,458 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:24:57,459 | DEBUG: proc1 Backup Excel
+2024-09-05 18:24:57,474 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:25:28,229 | DEBUG: proc1 Excel Size 2640748
+2024-09-05 18:25:28,230 | DEBUG: proc1 Backup Size 2626391
+2024-09-05 18:25:28,230 | DEBUG: proc1 Save Success
+2024-09-05 18:28:29,554 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:28:29,555 | DEBUG: proc1 Backup Excel
+2024-09-05 18:28:29,571 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:29:00,943 | DEBUG: proc1 Excel Size 2655146
+2024-09-05 18:29:00,943 | DEBUG: proc1 Backup Size 2640748
+2024-09-05 18:29:00,943 | DEBUG: proc1 Save Success
+2024-09-05 18:32:02,278 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:32:02,279 | DEBUG: proc1 Backup Excel
+2024-09-05 18:32:02,309 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:32:33,898 | DEBUG: proc1 Excel Size 2669481
+2024-09-05 18:32:33,899 | DEBUG: proc1 Backup Size 2655146
+2024-09-05 18:32:33,919 | DEBUG: proc1 Save Success
+2024-09-05 18:35:35,168 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:35:35,168 | DEBUG: proc1 Backup Excel
+2024-09-05 18:35:35,184 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:36:06,437 | DEBUG: proc1 Excel Size 2683866
+2024-09-05 18:36:06,438 | DEBUG: proc1 Backup Size 2669481
+2024-09-05 18:36:06,438 | DEBUG: proc1 Save Success
+2024-09-05 18:39:07,760 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:39:07,761 | DEBUG: proc1 Backup Excel
+2024-09-05 18:39:07,777 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:39:39,719 | DEBUG: proc1 Excel Size 2698205
+2024-09-05 18:39:39,720 | DEBUG: proc1 Backup Size 2683866
+2024-09-05 18:39:39,720 | DEBUG: proc1 Save Success
+2024-09-05 18:42:40,988 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:42:40,988 | DEBUG: proc1 Backup Excel
+2024-09-05 18:42:41,003 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:43:12,476 | DEBUG: proc1 Excel Size 2712677
+2024-09-05 18:43:12,476 | DEBUG: proc1 Backup Size 2698205
+2024-09-05 18:43:12,476 | DEBUG: proc1 Save Success
+2024-09-05 18:46:13,943 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:46:13,943 | DEBUG: proc1 Backup Excel
+2024-09-05 18:46:13,959 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:46:45,606 | DEBUG: proc1 Excel Size 2727261
+2024-09-05 18:46:45,606 | DEBUG: proc1 Backup Size 2712677
+2024-09-05 18:46:45,606 | DEBUG: proc1 Save Success
+2024-09-05 18:49:46,869 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:49:46,870 | DEBUG: proc1 Backup Excel
+2024-09-05 18:49:46,885 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:50:18,830 | DEBUG: proc1 Excel Size 2741748
+2024-09-05 18:50:18,831 | DEBUG: proc1 Backup Size 2727261
+2024-09-05 18:50:18,831 | DEBUG: proc1 Save Success
+2024-09-05 18:53:20,109 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:53:20,109 | DEBUG: proc1 Backup Excel
+2024-09-05 18:53:20,125 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:53:52,609 | DEBUG: proc1 Excel Size 2756282
+2024-09-05 18:53:52,609 | DEBUG: proc1 Backup Size 2741748
+2024-09-05 18:53:52,610 | DEBUG: proc1 Save Success
+2024-09-05 18:56:53,938 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 18:56:53,938 | DEBUG: proc1 Backup Excel
+2024-09-05 18:56:53,953 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 18:57:25,964 | DEBUG: proc1 Excel Size 2770805
+2024-09-05 18:57:25,965 | DEBUG: proc1 Backup Size 2756282
+2024-09-05 18:57:25,965 | DEBUG: proc1 Save Success
+2024-09-05 19:00:27,279 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:00:27,279 | DEBUG: proc1 Backup Excel
+2024-09-05 19:00:27,295 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:01:00,235 | DEBUG: proc1 Excel Size 2785292
+2024-09-05 19:01:00,236 | DEBUG: proc1 Backup Size 2770805
+2024-09-05 19:01:00,236 | DEBUG: proc1 Save Success
+2024-09-05 19:04:01,583 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:04:01,584 | DEBUG: proc1 Backup Excel
+2024-09-05 19:04:01,601 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:04:34,031 | DEBUG: proc1 Excel Size 2799854
+2024-09-05 19:04:34,031 | DEBUG: proc1 Backup Size 2785292
+2024-09-05 19:04:34,032 | DEBUG: proc1 Save Success
+2024-09-05 19:07:35,331 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:07:35,331 | DEBUG: proc1 Backup Excel
+2024-09-05 19:07:35,347 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:08:08,020 | DEBUG: proc1 Excel Size 2814341
+2024-09-05 19:08:08,020 | DEBUG: proc1 Backup Size 2799854
+2024-09-05 19:08:08,020 | DEBUG: proc1 Save Success
+2024-09-05 19:11:09,343 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:11:09,343 | DEBUG: proc1 Backup Excel
+2024-09-05 19:11:09,360 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:11:42,684 | DEBUG: proc1 Excel Size 2828770
+2024-09-05 19:11:42,684 | DEBUG: proc1 Backup Size 2814341
+2024-09-05 19:11:42,684 | DEBUG: proc1 Save Success
+2024-09-05 19:14:43,999 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:14:44,000 | DEBUG: proc1 Backup Excel
+2024-09-05 19:14:44,016 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:15:16,953 | DEBUG: proc1 Excel Size 2843267
+2024-09-05 19:15:16,953 | DEBUG: proc1 Backup Size 2828770
+2024-09-05 19:15:16,953 | DEBUG: proc1 Save Success
+2024-09-05 19:18:18,334 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:18:18,335 | DEBUG: proc1 Backup Excel
+2024-09-05 19:18:18,351 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:18:52,511 | DEBUG: proc1 Excel Size 2857823
+2024-09-05 19:18:52,512 | DEBUG: proc1 Backup Size 2843267
+2024-09-05 19:18:52,512 | DEBUG: proc1 Save Success
+2024-09-05 19:21:53,775 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:21:53,776 | DEBUG: proc1 Backup Excel
+2024-09-05 19:21:53,792 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:22:26,997 | DEBUG: proc1 Excel Size 2872366
+2024-09-05 19:22:26,997 | DEBUG: proc1 Backup Size 2857823
+2024-09-05 19:22:26,997 | DEBUG: proc1 Save Success
+2024-09-05 19:25:28,282 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:25:28,282 | DEBUG: proc1 Backup Excel
+2024-09-05 19:25:28,298 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:26:01,577 | DEBUG: proc1 Excel Size 2886774
+2024-09-05 19:26:01,577 | DEBUG: proc1 Backup Size 2872366
+2024-09-05 19:26:01,578 | DEBUG: proc1 Save Success
+2024-09-05 19:29:03,530 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:29:03,531 | DEBUG: proc1 Backup Excel
+2024-09-05 19:29:03,559 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:29:37,153 | DEBUG: proc1 Excel Size 2901107
+2024-09-05 19:29:37,153 | DEBUG: proc1 Backup Size 2886774
+2024-09-05 19:29:37,154 | DEBUG: proc1 Save Success
+2024-09-05 19:32:38,530 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:32:38,530 | DEBUG: proc1 Backup Excel
+2024-09-05 19:32:38,549 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:33:12,229 | DEBUG: proc1 Excel Size 2915532
+2024-09-05 19:33:12,230 | DEBUG: proc1 Backup Size 2901107
+2024-09-05 19:33:12,230 | DEBUG: proc1 Save Success
+2024-09-05 19:36:13,539 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:36:13,539 | DEBUG: proc1 Backup Excel
+2024-09-05 19:36:13,555 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:36:48,199 | DEBUG: proc1 Excel Size 2930082
+2024-09-05 19:36:48,199 | DEBUG: proc1 Backup Size 2915532
+2024-09-05 19:36:48,199 | DEBUG: proc1 Save Success
+2024-09-05 19:39:49,539 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:39:49,539 | DEBUG: proc1 Backup Excel
+2024-09-05 19:39:49,561 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:40:23,755 | DEBUG: proc1 Excel Size 2944640
+2024-09-05 19:40:23,756 | DEBUG: proc1 Backup Size 2930082
+2024-09-05 19:40:23,756 | DEBUG: proc1 Save Success
+2024-09-05 19:43:25,157 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:43:25,157 | DEBUG: proc1 Backup Excel
+2024-09-05 19:43:25,175 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:43:59,996 | DEBUG: proc1 Excel Size 2959157
+2024-09-05 19:43:59,997 | DEBUG: proc1 Backup Size 2944640
+2024-09-05 19:43:59,997 | DEBUG: proc1 Save Success
+2024-09-05 19:47:01,323 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:47:01,323 | DEBUG: proc1 Backup Excel
+2024-09-05 19:47:01,340 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:47:35,618 | DEBUG: proc1 Excel Size 2973508
+2024-09-05 19:47:35,619 | DEBUG: proc1 Backup Size 2959157
+2024-09-05 19:47:35,619 | DEBUG: proc1 Save Success
+2024-09-05 19:50:36,881 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:50:36,881 | DEBUG: proc1 Backup Excel
+2024-09-05 19:50:36,898 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:51:11,690 | DEBUG: proc1 Excel Size 2987923
+2024-09-05 19:51:11,690 | DEBUG: proc1 Backup Size 2973508
+2024-09-05 19:51:11,690 | DEBUG: proc1 Save Success
+2024-09-05 19:54:13,064 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:54:13,065 | DEBUG: proc1 Backup Excel
+2024-09-05 19:54:13,083 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:54:48,355 | DEBUG: proc1 Excel Size 3002455
+2024-09-05 19:54:48,355 | DEBUG: proc1 Backup Size 2987923
+2024-09-05 19:54:48,356 | DEBUG: proc1 Save Success
+2024-09-05 19:57:49,667 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 19:57:49,667 | DEBUG: proc1 Backup Excel
+2024-09-05 19:57:49,685 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 19:58:24,613 | DEBUG: proc1 Excel Size 3016971
+2024-09-05 19:58:24,613 | DEBUG: proc1 Backup Size 3002455
+2024-09-05 19:58:24,613 | DEBUG: proc1 Save Success
+2024-09-05 20:01:25,896 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:01:25,896 | DEBUG: proc1 Backup Excel
+2024-09-05 20:01:25,914 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:02:02,108 | DEBUG: proc1 Excel Size 3031513
+2024-09-05 20:02:02,108 | DEBUG: proc1 Backup Size 3016971
+2024-09-05 20:02:02,108 | DEBUG: proc1 Save Success
+2024-09-05 20:05:03,395 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:05:03,395 | DEBUG: proc1 Backup Excel
+2024-09-05 20:05:03,412 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:05:38,543 | DEBUG: proc1 Excel Size 3045882
+2024-09-05 20:05:38,544 | DEBUG: proc1 Backup Size 3031513
+2024-09-05 20:05:38,544 | DEBUG: proc1 Save Success
+2024-09-05 20:08:39,905 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:08:39,906 | DEBUG: proc1 Backup Excel
+2024-09-05 20:08:39,924 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:09:15,670 | DEBUG: proc1 Excel Size 3060346
+2024-09-05 20:09:15,671 | DEBUG: proc1 Backup Size 3045882
+2024-09-05 20:09:15,671 | DEBUG: proc1 Save Success
+2024-09-05 20:12:16,980 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:12:16,981 | DEBUG: proc1 Backup Excel
+2024-09-05 20:12:16,998 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:12:52,702 | DEBUG: proc1 Excel Size 3074829
+2024-09-05 20:12:52,702 | DEBUG: proc1 Backup Size 3060346
+2024-09-05 20:12:52,702 | DEBUG: proc1 Save Success
+2024-09-05 20:15:54,030 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:15:54,030 | DEBUG: proc1 Backup Excel
+2024-09-05 20:15:54,048 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:16:30,215 | DEBUG: proc1 Excel Size 3089293
+2024-09-05 20:16:30,215 | DEBUG: proc1 Backup Size 3074829
+2024-09-05 20:16:30,216 | DEBUG: proc1 Save Success
+2024-09-05 20:19:31,527 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:19:31,528 | DEBUG: proc1 Backup Excel
+2024-09-05 20:19:31,547 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:20:07,964 | DEBUG: proc1 Excel Size 3103815
+2024-09-05 20:20:07,964 | DEBUG: proc1 Backup Size 3089293
+2024-09-05 20:20:07,965 | DEBUG: proc1 Save Success
+2024-09-05 20:23:09,313 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:23:09,313 | DEBUG: proc1 Backup Excel
+2024-09-05 20:23:09,331 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:23:46,238 | DEBUG: proc1 Excel Size 3118289
+2024-09-05 20:23:46,239 | DEBUG: proc1 Backup Size 3103815
+2024-09-05 20:23:46,239 | DEBUG: proc1 Save Success
+2024-09-05 20:26:47,630 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:26:47,631 | DEBUG: proc1 Backup Excel
+2024-09-05 20:26:47,648 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:27:24,352 | DEBUG: proc1 Excel Size 3132686
+2024-09-05 20:27:24,353 | DEBUG: proc1 Backup Size 3118289
+2024-09-05 20:27:24,354 | DEBUG: proc1 Save Success
+2024-09-05 20:30:25,659 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:30:25,660 | DEBUG: proc1 Backup Excel
+2024-09-05 20:30:25,685 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:31:02,094 | DEBUG: proc1 Excel Size 3147111
+2024-09-05 20:31:02,094 | DEBUG: proc1 Backup Size 3132686
+2024-09-05 20:31:02,094 | DEBUG: proc1 Save Success
+2024-09-05 20:34:03,452 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:34:03,452 | DEBUG: proc1 Backup Excel
+2024-09-05 20:34:03,470 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:34:40,787 | DEBUG: proc1 Excel Size 3161437
+2024-09-05 20:34:40,787 | DEBUG: proc1 Backup Size 3147111
+2024-09-05 20:34:40,787 | DEBUG: proc1 Save Success
+2024-09-05 20:37:42,094 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:37:42,094 | DEBUG: proc1 Backup Excel
+2024-09-05 20:37:42,112 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:38:18,804 | DEBUG: proc1 Excel Size 3175869
+2024-09-05 20:38:18,805 | DEBUG: proc1 Backup Size 3161437
+2024-09-05 20:38:18,805 | DEBUG: proc1 Save Success
+2024-09-05 20:41:20,069 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:41:20,070 | DEBUG: proc1 Backup Excel
+2024-09-05 20:41:20,088 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:41:56,799 | DEBUG: proc1 Excel Size 3190206
+2024-09-05 20:41:56,799 | DEBUG: proc1 Backup Size 3175869
+2024-09-05 20:41:56,800 | DEBUG: proc1 Save Success
+2024-09-05 20:44:59,189 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:44:59,189 | DEBUG: proc1 Backup Excel
+2024-09-05 20:44:59,220 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:45:37,258 | DEBUG: proc1 Excel Size 3204538
+2024-09-05 20:45:37,258 | DEBUG: proc1 Backup Size 3190206
+2024-09-05 20:45:37,259 | DEBUG: proc1 Save Success
+2024-09-05 20:48:38,556 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:48:38,557 | DEBUG: proc1 Backup Excel
+2024-09-05 20:48:38,576 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:49:16,658 | DEBUG: proc1 Excel Size 3218976
+2024-09-05 20:49:16,658 | DEBUG: proc1 Backup Size 3204538
+2024-09-05 20:49:16,659 | DEBUG: proc1 Save Success
+2024-09-05 20:52:17,965 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:52:17,966 | DEBUG: proc1 Backup Excel
+2024-09-05 20:52:17,984 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:52:55,416 | DEBUG: proc1 Excel Size 3233270
+2024-09-05 20:52:55,416 | DEBUG: proc1 Backup Size 3218976
+2024-09-05 20:52:55,416 | DEBUG: proc1 Save Success
+2024-09-05 20:55:56,836 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:55:56,836 | DEBUG: proc1 Backup Excel
+2024-09-05 20:55:56,854 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 20:56:34,390 | DEBUG: proc1 Excel Size 3247469
+2024-09-05 20:56:34,391 | DEBUG: proc1 Backup Size 3233270
+2024-09-05 20:56:34,391 | DEBUG: proc1 Save Success
+2024-09-05 20:59:35,676 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 20:59:35,676 | DEBUG: proc1 Backup Excel
+2024-09-05 20:59:35,694 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:00:14,016 | DEBUG: proc1 Excel Size 3261895
+2024-09-05 21:00:14,016 | DEBUG: proc1 Backup Size 3247469
+2024-09-05 21:00:14,016 | DEBUG: proc1 Save Success
+2024-09-05 21:03:15,375 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:03:15,375 | DEBUG: proc1 Backup Excel
+2024-09-05 21:03:15,404 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:03:53,165 | DEBUG: proc1 Excel Size 3276333
+2024-09-05 21:03:53,165 | DEBUG: proc1 Backup Size 3261895
+2024-09-05 21:03:53,165 | DEBUG: proc1 Save Success
+2024-09-05 21:06:54,439 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:06:54,439 | DEBUG: proc1 Backup Excel
+2024-09-05 21:06:54,458 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:07:33,332 | DEBUG: proc1 Excel Size 3290643
+2024-09-05 21:07:33,333 | DEBUG: proc1 Backup Size 3276333
+2024-09-05 21:07:33,333 | DEBUG: proc1 Save Success
+2024-09-05 21:10:34,632 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:10:34,632 | DEBUG: proc1 Backup Excel
+2024-09-05 21:10:34,651 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:11:13,082 | DEBUG: proc1 Excel Size 3304965
+2024-09-05 21:11:13,082 | DEBUG: proc1 Backup Size 3290643
+2024-09-05 21:11:13,083 | DEBUG: proc1 Save Success
+2024-09-05 21:14:14,377 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:14:14,377 | DEBUG: proc1 Backup Excel
+2024-09-05 21:14:14,396 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:14:52,457 | DEBUG: proc1 Excel Size 3319311
+2024-09-05 21:14:52,457 | DEBUG: proc1 Backup Size 3304965
+2024-09-05 21:14:52,458 | DEBUG: proc1 Save Success
+2024-09-05 21:17:53,808 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:17:53,808 | DEBUG: proc1 Backup Excel
+2024-09-05 21:17:53,847 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:18:33,132 | DEBUG: proc1 Excel Size 3333549
+2024-09-05 21:18:33,133 | DEBUG: proc1 Backup Size 3319311
+2024-09-05 21:18:33,133 | DEBUG: proc1 Save Success
+2024-09-05 21:21:34,453 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:21:34,453 | DEBUG: proc1 Backup Excel
+2024-09-05 21:21:34,472 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:22:13,307 | DEBUG: proc1 Excel Size 3347760
+2024-09-05 21:22:13,307 | DEBUG: proc1 Backup Size 3333549
+2024-09-05 21:22:13,308 | DEBUG: proc1 Save Success
+2024-09-05 21:25:15,677 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:25:15,678 | DEBUG: proc1 Backup Excel
+2024-09-05 21:25:15,698 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:25:55,184 | DEBUG: proc1 Excel Size 3362158
+2024-09-05 21:25:55,185 | DEBUG: proc1 Backup Size 3347760
+2024-09-05 21:25:55,185 | DEBUG: proc1 Save Success
+2024-09-05 21:28:56,413 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:28:56,413 | DEBUG: proc1 Backup Excel
+2024-09-05 21:28:56,432 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:29:35,754 | DEBUG: proc1 Excel Size 3376416
+2024-09-05 21:29:35,754 | DEBUG: proc1 Backup Size 3362158
+2024-09-05 21:29:35,755 | DEBUG: proc1 Save Success
+2024-09-05 21:32:37,093 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:32:37,093 | DEBUG: proc1 Backup Excel
+2024-09-05 21:32:37,112 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:33:16,814 | DEBUG: proc1 Excel Size 3390721
+2024-09-05 21:33:16,815 | DEBUG: proc1 Backup Size 3376416
+2024-09-05 21:33:16,815 | DEBUG: proc1 Save Success
+2024-09-05 21:36:18,124 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:36:18,124 | DEBUG: proc1 Backup Excel
+2024-09-05 21:36:18,143 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:36:57,419 | DEBUG: proc1 Excel Size 3404997
+2024-09-05 21:36:57,419 | DEBUG: proc1 Backup Size 3390721
+2024-09-05 21:36:57,420 | DEBUG: proc1 Save Success
+2024-09-05 21:39:58,722 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:39:58,722 | DEBUG: proc1 Backup Excel
+2024-09-05 21:39:58,741 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:40:38,219 | DEBUG: proc1 Excel Size 3419218
+2024-09-05 21:40:38,219 | DEBUG: proc1 Backup Size 3404997
+2024-09-05 21:40:38,219 | DEBUG: proc1 Save Success
+2024-09-05 21:43:39,562 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:43:39,562 | DEBUG: proc1 Backup Excel
+2024-09-05 21:43:39,582 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:44:19,955 | DEBUG: proc1 Excel Size 3433457
+2024-09-05 21:44:19,956 | DEBUG: proc1 Backup Size 3419218
+2024-09-05 21:44:19,956 | DEBUG: proc1 Save Success
+2024-09-05 21:47:21,284 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:47:21,285 | DEBUG: proc1 Backup Excel
+2024-09-05 21:47:21,305 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:48:01,630 | DEBUG: proc1 Excel Size 3447641
+2024-09-05 21:48:01,630 | DEBUG: proc1 Backup Size 3433457
+2024-09-05 21:48:01,630 | DEBUG: proc1 Save Success
+2024-09-05 21:51:02,919 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:51:02,919 | DEBUG: proc1 Backup Excel
+2024-09-05 21:51:02,938 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:51:42,976 | DEBUG: proc1 Excel Size 3462001
+2024-09-05 21:51:42,976 | DEBUG: proc1 Backup Size 3447641
+2024-09-05 21:51:42,977 | DEBUG: proc1 Save Success
+2024-09-05 21:54:44,316 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:54:44,316 | DEBUG: proc1 Backup Excel
+2024-09-05 21:54:44,336 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:55:25,120 | DEBUG: proc1 Excel Size 3476284
+2024-09-05 21:55:25,121 | DEBUG: proc1 Backup Size 3462001
+2024-09-05 21:55:25,121 | DEBUG: proc1 Save Success
+2024-09-05 21:58:26,442 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 21:58:26,442 | DEBUG: proc1 Backup Excel
+2024-09-05 21:58:26,462 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 21:59:06,962 | DEBUG: proc1 Excel Size 3490604
+2024-09-05 21:59:06,962 | DEBUG: proc1 Backup Size 3476284
+2024-09-05 21:59:06,962 | DEBUG: proc1 Save Success
+2024-09-05 22:02:08,343 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:02:08,343 | DEBUG: proc1 Backup Excel
+2024-09-05 22:02:08,366 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:02:49,863 | DEBUG: proc1 Excel Size 3505084
+2024-09-05 22:02:49,864 | DEBUG: proc1 Backup Size 3490604
+2024-09-05 22:02:49,864 | DEBUG: proc1 Save Success
+2024-09-05 22:05:51,195 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:05:51,196 | DEBUG: proc1 Backup Excel
+2024-09-05 22:05:51,216 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:06:31,599 | DEBUG: proc1 Excel Size 3519481
+2024-09-05 22:06:31,599 | DEBUG: proc1 Backup Size 3505084
+2024-09-05 22:06:31,600 | DEBUG: proc1 Save Success
+2024-09-05 22:09:32,971 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:09:32,971 | DEBUG: proc1 Backup Excel
+2024-09-05 22:09:32,991 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:10:14,508 | DEBUG: proc1 Excel Size 3533726
+2024-09-05 22:10:14,509 | DEBUG: proc1 Backup Size 3519481
+2024-09-05 22:10:14,509 | DEBUG: proc1 Save Success
+2024-09-05 22:13:15,813 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:13:15,813 | DEBUG: proc1 Backup Excel
+2024-09-05 22:13:15,834 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:13:56,688 | DEBUG: proc1 Excel Size 3548031
+2024-09-05 22:13:56,689 | DEBUG: proc1 Backup Size 3533726
+2024-09-05 22:13:56,689 | DEBUG: proc1 Save Success
+2024-09-05 22:16:58,003 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:16:58,004 | DEBUG: proc1 Backup Excel
+2024-09-05 22:16:58,024 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:17:39,804 | DEBUG: proc1 Excel Size 3562432
+2024-09-05 22:17:39,805 | DEBUG: proc1 Backup Size 3548031
+2024-09-05 22:17:39,805 | DEBUG: proc1 Save Success
+2024-09-05 22:20:41,097 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:20:41,098 | DEBUG: proc1 Backup Excel
+2024-09-05 22:20:41,118 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:21:22,118 | DEBUG: proc1 Excel Size 3576599
+2024-09-05 22:21:22,118 | DEBUG: proc1 Backup Size 3562432
+2024-09-05 22:21:22,119 | DEBUG: proc1 Save Success
+2024-09-05 22:24:23,482 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:24:23,483 | DEBUG: proc1 Backup Excel
+2024-09-05 22:24:23,505 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:25:06,174 | DEBUG: proc1 Excel Size 3590979
+2024-09-05 22:25:06,174 | DEBUG: proc1 Backup Size 3576599
+2024-09-05 22:25:06,175 | DEBUG: proc1 Save Success
+2024-09-05 22:28:07,465 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:28:07,466 | DEBUG: proc1 Backup Excel
+2024-09-05 22:28:07,486 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:28:48,885 | DEBUG: proc1 Excel Size 3605316
+2024-09-05 22:28:48,885 | DEBUG: proc1 Backup Size 3590979
+2024-09-05 22:28:48,886 | DEBUG: proc1 Save Success
+2024-09-05 22:31:50,189 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:31:50,189 | DEBUG: proc1 Backup Excel
+2024-09-05 22:31:50,210 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:32:32,649 | DEBUG: proc1 Excel Size 3619726
+2024-09-05 22:32:32,649 | DEBUG: proc1 Backup Size 3605316
+2024-09-05 22:32:32,649 | DEBUG: proc1 Save Success
+2024-09-05 22:35:33,940 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:35:33,940 | DEBUG: proc1 Backup Excel
+2024-09-05 22:35:33,961 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:36:16,020 | DEBUG: proc1 Excel Size 3633927
+2024-09-05 22:36:16,021 | DEBUG: proc1 Backup Size 3619726
+2024-09-05 22:36:16,021 | DEBUG: proc1 Save Success
+2024-09-05 22:39:17,406 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:39:17,406 | DEBUG: proc1 Backup Excel
+2024-09-05 22:39:17,426 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:40:00,087 | DEBUG: proc1 Excel Size 3648086
+2024-09-05 22:40:00,088 | DEBUG: proc1 Backup Size 3633927
+2024-09-05 22:40:00,088 | DEBUG: proc1 Save Success
+2024-09-05 22:43:01,346 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:43:01,346 | DEBUG: proc1 Backup Excel
+2024-09-05 22:43:01,367 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:43:43,968 | DEBUG: proc1 Excel Size 3662427
+2024-09-05 22:43:43,968 | DEBUG: proc1 Backup Size 3648086
+2024-09-05 22:43:43,969 | DEBUG: proc1 Save Success
+2024-09-05 22:46:45,340 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:46:45,340 | DEBUG: proc1 Backup Excel
+2024-09-05 22:46:45,362 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:47:28,706 | DEBUG: proc1 Excel Size 3676624
+2024-09-05 22:47:28,706 | DEBUG: proc1 Backup Size 3662427
+2024-09-05 22:47:28,706 | DEBUG: proc1 Save Success
+2024-09-05 22:50:30,001 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:50:30,002 | DEBUG: proc1 Backup Excel
+2024-09-05 22:50:30,023 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:51:13,036 | DEBUG: proc1 Excel Size 3690979
+2024-09-05 22:51:13,037 | DEBUG: proc1 Backup Size 3676624
+2024-09-05 22:51:13,037 | DEBUG: proc1 Save Success
+2024-09-05 22:54:14,401 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:54:14,401 | DEBUG: proc1 Backup Excel
+2024-09-05 22:54:14,423 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:54:57,862 | DEBUG: proc1 Excel Size 3705183
+2024-09-05 22:54:57,862 | DEBUG: proc1 Backup Size 3690979
+2024-09-05 22:54:57,862 | DEBUG: proc1 Save Success
+2024-09-05 22:57:59,185 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 22:57:59,186 | DEBUG: proc1 Backup Excel
+2024-09-05 22:57:59,207 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 22:58:42,323 | DEBUG: proc1 Excel Size 3719343
+2024-09-05 22:58:42,323 | DEBUG: proc1 Backup Size 3705183
+2024-09-05 22:58:42,323 | DEBUG: proc1 Save Success
+2024-09-05 23:01:43,625 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:01:43,626 | DEBUG: proc1 Backup Excel
+2024-09-05 23:01:43,647 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:02:27,889 | DEBUG: proc1 Excel Size 3733643
+2024-09-05 23:02:27,890 | DEBUG: proc1 Backup Size 3719343
+2024-09-05 23:02:27,890 | DEBUG: proc1 Save Success
+2024-09-05 23:05:29,226 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:05:29,226 | DEBUG: proc1 Backup Excel
+2024-09-05 23:05:29,252 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:06:12,565 | DEBUG: proc1 Excel Size 3747848
+2024-09-05 23:06:12,566 | DEBUG: proc1 Backup Size 3733643
+2024-09-05 23:06:12,566 | DEBUG: proc1 Save Success
+2024-09-05 23:09:13,854 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:09:13,855 | DEBUG: proc1 Backup Excel
+2024-09-05 23:09:13,878 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:09:57,966 | DEBUG: proc1 Excel Size 3762064
+2024-09-05 23:09:57,966 | DEBUG: proc1 Backup Size 3747848
+2024-09-05 23:09:57,966 | DEBUG: proc1 Save Success
+2024-09-05 23:12:59,353 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:12:59,354 | DEBUG: proc1 Backup Excel
+2024-09-05 23:12:59,377 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:13:43,325 | DEBUG: proc1 Excel Size 3776270
+2024-09-05 23:13:43,326 | DEBUG: proc1 Backup Size 3762064
+2024-09-05 23:13:43,326 | DEBUG: proc1 Save Success
+2024-09-05 23:16:44,567 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:16:44,567 | DEBUG: proc1 Backup Excel
+2024-09-05 23:16:44,589 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:17:29,705 | DEBUG: proc1 Excel Size 3790383
+2024-09-05 23:17:29,705 | DEBUG: proc1 Backup Size 3776270
+2024-09-05 23:17:29,706 | DEBUG: proc1 Save Success
+2024-09-05 23:20:31,008 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:20:31,008 | DEBUG: proc1 Backup Excel
+2024-09-05 23:20:31,030 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:21:14,850 | DEBUG: proc1 Excel Size 3804600
+2024-09-05 23:21:14,851 | DEBUG: proc1 Backup Size 3790383
+2024-09-05 23:21:14,851 | DEBUG: proc1 Save Success
+2024-09-05 23:24:16,172 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:24:16,173 | DEBUG: proc1 Backup Excel
+2024-09-05 23:24:16,195 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:25:01,682 | DEBUG: proc1 Excel Size 3818934
+2024-09-05 23:25:01,683 | DEBUG: proc1 Backup Size 3804600
+2024-09-05 23:25:01,683 | DEBUG: proc1 Save Success
+2024-09-05 23:28:03,028 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:28:03,029 | DEBUG: proc1 Backup Excel
+2024-09-05 23:28:03,052 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:28:47,378 | DEBUG: proc1 Excel Size 3833356
+2024-09-05 23:28:47,378 | DEBUG: proc1 Backup Size 3818934
+2024-09-05 23:28:47,378 | DEBUG: proc1 Save Success
+2024-09-05 23:31:48,709 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:31:48,710 | DEBUG: proc1 Backup Excel
+2024-09-05 23:31:48,731 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:32:33,144 | DEBUG: proc1 Excel Size 3847632
+2024-09-05 23:32:33,144 | DEBUG: proc1 Backup Size 3833356
+2024-09-05 23:32:33,144 | DEBUG: proc1 Save Success
+2024-09-05 23:35:35,463 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:35:35,463 | DEBUG: proc1 Backup Excel
+2024-09-05 23:35:35,486 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:36:20,991 | DEBUG: proc1 Excel Size 3861351
+2024-09-05 23:36:20,991 | DEBUG: proc1 Backup Size 3847632
+2024-09-05 23:36:20,991 | DEBUG: proc1 Save Success
+2024-09-05 23:39:22,320 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:39:22,320 | DEBUG: proc1 Backup Excel
+2024-09-05 23:39:22,342 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:40:07,338 | DEBUG: proc1 Excel Size 3875647
+2024-09-05 23:40:07,338 | DEBUG: proc1 Backup Size 3861351
+2024-09-05 23:40:07,338 | DEBUG: proc1 Save Success
+2024-09-05 23:43:08,659 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:43:08,660 | DEBUG: proc1 Backup Excel
+2024-09-05 23:43:08,705 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:43:54,686 | DEBUG: proc1 Excel Size 3889842
+2024-09-05 23:43:54,687 | DEBUG: proc1 Backup Size 3875647
+2024-09-05 23:43:54,687 | DEBUG: proc1 Save Success
+2024-09-05 23:46:55,984 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:46:55,984 | DEBUG: proc1 Backup Excel
+2024-09-05 23:46:56,006 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:47:42,137 | DEBUG: proc1 Excel Size 3903946
+2024-09-05 23:47:42,138 | DEBUG: proc1 Backup Size 3889842
+2024-09-05 23:47:42,139 | DEBUG: proc1 Save Success
+2024-09-05 23:50:43,427 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:50:43,427 | DEBUG: proc1 Backup Excel
+2024-09-05 23:50:43,449 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:51:28,438 | DEBUG: proc1 Excel Size 3918150
+2024-09-05 23:51:28,439 | DEBUG: proc1 Backup Size 3903946
+2024-09-05 23:51:28,441 | DEBUG: proc1 Save Success
+2024-09-05 23:54:29,668 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:54:29,668 | DEBUG: proc1 Backup Excel
+2024-09-05 23:54:29,692 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:55:16,209 | DEBUG: proc1 Excel Size 3932319
+2024-09-05 23:55:16,209 | DEBUG: proc1 Backup Size 3918150
+2024-09-05 23:55:16,209 | DEBUG: proc1 Save Success
+2024-09-05 23:58:17,471 | DEBUG: proc1 Check Current Excel Size
+2024-09-05 23:58:17,472 | DEBUG: proc1 Backup Excel
+2024-09-05 23:58:17,494 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-05 23:59:03,394 | DEBUG: proc1 Excel Size 3946420
+2024-09-05 23:59:03,395 | DEBUG: proc1 Backup Size 3932319
+2024-09-05 23:59:03,395 | DEBUG: proc1 Save Success
+2024-09-06 00:01:40,002 | INFO: Restarting machine: 2024-09-06 00:00:39.942377

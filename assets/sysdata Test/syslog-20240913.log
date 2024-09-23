@@ -1,0 +1,35 @@
+2024-09-13 08:17:06,344 | DEBUG: Starting App
+2024-09-13 08:17:06,345 | INFO: Initializing App
+2024-09-13 08:17:06,346 | DEBUG: Start module_IO
+2024-09-13 08:17:06,346 | DEBUG: Starting process: module_IO.py
+2024-09-13 08:17:06,355 | DEBUG: Process module_IO.py started with PID: 615
+2024-09-13 08:17:06,357 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-13 08:17:07,377 | DEBUG: Starting process: data_handler.py
+2024-09-13 08:17:07,386 | DEBUG: Process data_handler.py started with PID: 694
+2024-09-13 08:17:07,387 | DEBUG: Init GUI Tkinter
+2024-09-13 08:17:09,092 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2024-09-13 08:17:19,575 | DEBUG: Starting App
+2024-09-13 08:17:19,575 | INFO: Initializing App
+2024-09-13 08:17:19,575 | DEBUG: Start module_IO
+2024-09-13 08:17:19,575 | DEBUG: Starting process: module_IO.py
+2024-09-13 08:17:19,579 | DEBUG: Process module_IO.py started with PID: 1333
+2024-09-13 08:17:19,580 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-13 08:17:20,581 | DEBUG: Starting process: data_handler.py
+2024-09-13 08:17:20,585 | DEBUG: Process data_handler.py started with PID: 1337
+2024-09-13 08:17:20,586 | DEBUG: Init GUI Tkinter
+2024-09-13 08:17:20,885 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2024-09-13 08:17:20,889 | DEBUG: proc2 Initialize program
+2024-09-13 08:17:20,890 | DEBUG: proc2 JSON File corrupt at main, use default value
+2024-09-13 08:17:20,892 | DEBUG: proc2 Start loop
+2024-09-13 08:17:20,893 | DEBUG: proc2 JSON File corrupt at gas Enabler, use default value
+2024-09-13 08:17:20,894 | DEBUG: proc2 JSON File corrupt, rewrite
+2024-09-13 08:17:21,749 | DEBUG: proc1 Initialize Program
+2024-09-13 08:17:48,757 | DEBUG: proc1 Open Existing Excel
+2024-09-13 08:17:49,305 | DEBUG: proc1 Start Loop
+2024-09-23 15:31:13,817 | DEBUG: proc1 Check Current Excel Size
+2024-09-23 15:31:13,818 | DEBUG: proc1 Backup Excel
+2024-09-23 15:31:13,830 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-23 15:31:40,413 | DEBUG: proc1 Excel Size 2218445
+2024-09-23 15:31:40,413 | DEBUG: proc1 Backup Size 2213230
+2024-09-23 15:31:40,413 | DEBUG: proc1 Save Success
+2024-09-23 15:32:28,393 | INFO: Restarting machine: 2024-09-23 15:31:28.332496
