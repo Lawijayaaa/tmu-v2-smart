@@ -231,26 +231,31 @@ def dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLe
         outputData[52] = getMoist.registers #Water Content ppm
     except:
         pass
-    randomify(dataLen)
+    outputData = randomify(dataLen)
+    for member in outputData:
+        member = (round(member * 1000))/1000
     return outputData
 
 def randomify(dataLen):
     outputData = [0]*dataLen
     #randomify getTemp
     try:
-        outputData[38:41] = [(random.randint(3500, 4200))/100, (random.randint(3500, 4200))/100, (random.randint(3500, 4200))/100] #busbar Temp
+        outputData[36] = (random.randint(3500, 4200))/100
+        outputData[37] = (random.randint(3500, 4200))/100
+        outputData[38] = (random.randint(3500, 4200))/100 #busbar Temp
     except:
         pass
     #randomify getElect1
     try:
         for i in range(0, 3):
-            outputData[i] = (random.randint(21500, 24250))/100 #Voltage Phase Neutral
+            outputData[i] = (random.randint(21750, 23050))/100 #Voltage Phase Neutral
             outputData[i + 3] = math.pow(3, 0.5) * outputData[i] #Voltage Phase Phase
             outputData[i + 6] = (random.randint(400000, 750000))/1000 #Current
             outputData[i + 29] = (random.randint(900, 1000))/1000 #PF
             outputData[i + 17] = outputData[i + 3] * outputData[i + 6] * outputData[i + 29] #P
             outputData[i + 21] = outputData[i + 3] * outputData[i + 6] * math.sin(math.acos(outputData[i + 29])) #Q
-        outputData[10] = math.sqrt(math.pow(outputData[6], 2) + math.pow(outputData[7], 2) + math.pow(outputData[8], 2) - outputData[6]*outputData[7] - outputData[7]*outputData[8] - outputData[6]*outputData[8]) #Neutral Current
+        #outputData[10] = math.sqrt(math.pow(outputData[6], 2) + math.pow(outputData[7], 2) + math.pow(outputData[8], 2) - outputData[6]*outputData[7] - outputData[7]*outputData[8] - outputData[6]*outputData[8]) #Neutral Current
+        outputData[10] = (random.randint(4920, 10000))/1000
         outputData[20] = outputData[17] + outputData[18] + outputData[19] #Psig
         outputData[24] = outputData[21] + outputData[22] + outputData[23]  #Qsig
         outputData[33] = (random.randint(4920, 5000))/100 #Frequency 
@@ -273,14 +278,14 @@ def randomify(dataLen):
     #parse getElect3
     try:
         for i in range(0, 3):
-            outputData[i + 11] = (random.randint(12, 50))/10 #THD Voltage
+            outputData[i + 11] = (random.randint(12, 40))/10 #THD Voltage
             outputData[i + 14] = (random.randint(10, 100))/10 #THD Current
     except:
         pass
     #parse getH2 and getMoist
     try:
-        outputData[51] = random.randint(2, 70) #H2 ppm
-        outputData[52] = random.randint(25, 120) #Water Content ppm
+        outputData[51] = random.randint(0, 9) #H2 ppm
+        outputData[52] = random.randint(0, 9) #Water Content ppm
     except:
         pass
     return outputData
