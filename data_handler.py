@@ -3,9 +3,12 @@ from pymodbus.client import ModbusSerialClient
 from toolboxTMU import parameter, sqlLibrary, initParameter, dataParser, harmonicParser, convertBinList
 from openpyxl import Workbook
 import mysql.connector, time, datetime, math, openpyxl, sys, shutil, os
+from requests.models import StreamConsumedError
+from requests.exceptions import Timeout
 import random
 
 engineName = " Trafo X "
+teleURL = 'http://192.168.133.190:1444/api/transformer/sendNotificationToTelegramGroup'
 progStat = True
 debugMsg = False
 infoMsg = True
@@ -275,9 +278,15 @@ def main():
             #print("Send Telegram Lhooo")
             tele = list(filter(None, msgEvent))
             if tele:
-                for message in tele:
-                    pass
-                    #print(message)
+                for message in tele:                
+                    messages = engineName + " Says : " + "\n" + message
+                    pload = {'message':messages}
+                    try:
+                        r = requests.post(teleURL, data = pload, timeout = 5, verify = False)
+                    except Timeout:
+                        pass
+                    except Exception as Argument:
+                        pass
             else:
                 pass
             cursor.execute(sqlLibrary.sqlUpdateTransformerStatus, currentStat)
@@ -294,7 +303,15 @@ def main():
                 if activeFailure[i]:
                     failureIndex = dataName.index(activeFailure[i][4])
                     msgReminder[failureIndex] = str(activeFailure[i][4] + " " + activeFailure[i][3] + " , Value = " + activeFailure[i][5] + "\n" + "Time Occurence : " + str(activeFailure[i][1]))                    
-                    #print(msgReminder[failureIndex])
+                    messages = engineName + " Says : " + "\n" + msgReminder
+                    pload = {'message':messages}
+                    try:
+                        r = requests.post(teleURL, data = pload, timeout = 5, verify = False)
+                    except Timeout:
+                        pass
+                    except Exception as Argument:
+                        pass
+
             telePrevTime = datetime.datetime.now()
         #print(inputData)
         if int((datetime.datetime.now() - excelPrevTime).total_seconds()) > 5:
