@@ -231,7 +231,8 @@ def dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLe
         outputData[52] = getMoist.registers #Water Content ppm
     except:
         pass
-    outputData = randomify(dataLen)
+    #Exhibition only
+    #outputData = randomify(dataLen)
     for member in outputData:
         member = (round(member * 1000))/1000
     return outputData

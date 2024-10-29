@@ -172,8 +172,11 @@ def main():
             oilStat = 3
         if debugMsg == True: print("1D|5 Parse Data")
         inputData = dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio)
-        inputData[39] = (random.randint(3500, 5000))/100 #Oil Temp
-        inputData[43] = (random.randint(10, 25))/100 #Pressure
+        inputData[39] = inputIO[6][2] #Oil Temp
+        inputData[43] = inputIO[7][2] #Pressure
+        #Exhibition only
+        #inputData[39] = (random.randint(3500, 5000))/100 #Oil Temp
+        #inputData[43] = (random.randint(10, 25))/100 #Pressure
         inputData[44] = oilStat
         #test parameter
         #inputData[4] = 430
