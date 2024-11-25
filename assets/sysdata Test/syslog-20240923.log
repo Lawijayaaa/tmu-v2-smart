@@ -1,0 +1,79 @@
+2024-09-23 16:44:42,943 | DEBUG: Starting App
+2024-09-23 16:44:42,944 | INFO: Initializing App
+2024-09-23 16:44:42,944 | DEBUG: Start module_IO
+2024-09-23 16:44:42,944 | DEBUG: Starting process: module_IO.py
+2024-09-23 16:44:42,949 | DEBUG: Process module_IO.py started with PID: 6848
+2024-09-23 16:44:42,950 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-23 16:44:43,951 | DEBUG: Starting process: data_handler.py
+2024-09-23 16:44:43,956 | DEBUG: Process data_handler.py started with PID: 6856
+2024-09-23 16:44:43,957 | DEBUG: Init GUI Tkinter
+2024-09-23 16:44:44,292 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2024-09-23 16:44:44,293 | DEBUG: proc2 Initialize program
+2024-09-23 16:44:44,294 | DEBUG: proc2 Start loop
+2024-09-23 16:44:45,487 | DEBUG: proc1 Initialize Program
+2024-09-23 16:44:46,169 | DEBUG: proc1 Start Loop
+2024-09-23 16:47:46,878 | DEBUG: proc1 Check Current Excel Size
+2024-09-23 16:47:46,879 | DEBUG: proc1 Backup Excel
+2024-09-23 16:47:46,882 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-23 16:47:47,597 | DEBUG: proc1 Excel Size 18903
+2024-09-23 16:47:47,598 | DEBUG: proc1 Backup Size 7233
+2024-09-23 16:47:47,598 | DEBUG: proc1 Save Success
+2024-09-23 16:50:49,459 | DEBUG: proc1 Check Current Excel Size
+2024-09-23 16:50:49,460 | DEBUG: proc1 Backup Excel
+2024-09-23 16:50:49,461 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-23 16:50:50,315 | DEBUG: proc1 Excel Size 30316
+2024-09-23 16:50:50,316 | DEBUG: proc1 Backup Size 18903
+2024-09-23 16:50:50,316 | DEBUG: proc1 Save Success
+2024-09-23 16:53:51,596 | DEBUG: proc1 Check Current Excel Size
+2024-09-23 16:53:51,601 | DEBUG: proc1 Backup Excel
+2024-09-23 16:53:51,602 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-23 16:53:52,656 | DEBUG: proc1 Excel Size 41047
+2024-09-23 16:53:52,657 | DEBUG: proc1 Backup Size 30316
+2024-09-23 16:53:52,657 | DEBUG: proc1 Save Success
+2024-09-23 16:55:36,049 | DEBUG: Starting App
+2024-09-23 16:55:36,057 | INFO: Initializing App
+2024-09-23 16:55:36,057 | DEBUG: Start module_IO
+2024-09-23 16:55:36,058 | DEBUG: Starting process: module_IO.py
+2024-09-23 16:55:36,075 | DEBUG: Process module_IO.py started with PID: 570
+2024-09-23 16:55:36,076 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-23 16:55:37,078 | DEBUG: Starting process: data_handler.py
+2024-09-23 16:55:37,087 | DEBUG: Process data_handler.py started with PID: 681
+2024-09-23 16:55:37,088 | DEBUG: Init GUI Tkinter
+2024-09-23 16:55:39,195 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2024-09-23 16:55:49,451 | DEBUG: Starting App
+2024-09-23 16:55:49,451 | INFO: Initializing App
+2024-09-23 16:55:49,451 | DEBUG: Start module_IO
+2024-09-23 16:55:49,451 | DEBUG: Starting process: module_IO.py
+2024-09-23 16:55:49,455 | DEBUG: Process module_IO.py started with PID: 1336
+2024-09-23 16:55:49,456 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-23 16:55:50,457 | DEBUG: Starting process: data_handler.py
+2024-09-23 16:55:50,461 | DEBUG: Process data_handler.py started with PID: 1337
+2024-09-23 16:55:50,462 | DEBUG: Init GUI Tkinter
+2024-09-23 16:55:50,757 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2024-09-23 16:55:50,759 | DEBUG: proc2 Initialize program
+2024-09-23 16:55:50,760 | DEBUG: proc2 Start loop
+2024-09-23 16:55:51,590 | DEBUG: proc1 Initialize Program
+2024-09-23 16:55:52,148 | DEBUG: proc1 Open Existing Excel
+2024-09-23 16:55:52,696 | DEBUG: proc1 Start Loop
+2024-09-23 16:56:50,900 | INFO: Restarting machine: 2024-09-23 16:55:50.878865
+2024-09-23 16:56:53,052 | DEBUG: Starting App
+2024-09-23 16:56:53,053 | INFO: Initializing App
+2024-09-23 16:56:53,053 | DEBUG: Start module_IO
+2024-09-23 16:56:53,053 | DEBUG: Starting process: module_IO.py
+2024-09-23 16:56:53,058 | DEBUG: Process module_IO.py started with PID: 1428
+2024-09-23 16:56:53,058 | DEBUG: Sleep 1s then start data_handler.py
+2024-09-23 16:56:54,059 | DEBUG: Starting process: data_handler.py
+2024-09-23 16:56:54,065 | DEBUG: Process data_handler.py started with PID: 1483
+2024-09-23 16:56:54,065 | DEBUG: Init GUI Tkinter
+2024-09-23 16:56:54,322 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2024-09-23 16:56:54,324 | DEBUG: proc2 Initialize program
+2024-09-23 16:56:54,335 | DEBUG: proc2 Start loop
+2024-09-23 16:56:55,170 | DEBUG: proc1 Initialize Program
+2024-09-23 16:56:55,703 | DEBUG: proc1 Open Existing Excel
+2024-09-23 16:56:56,260 | DEBUG: proc1 Start Loop
+2024-09-24 08:08:25,345 | DEBUG: proc1 Check Current Excel Size
+2024-09-24 08:08:25,346 | DEBUG: proc1 Backup Excel
+2024-09-24 08:08:25,347 | DEBUG: proc1 Try to save Excel from work stage
+2024-09-24 08:08:26,765 | DEBUG: proc1 Excel Size 41861
+2024-09-24 08:08:26,766 | DEBUG: proc1 Backup Size 41047
+2024-09-24 08:08:26,767 | DEBUG: proc1 Save Success
