@@ -1,23 +1,49 @@
 #from pymodbus.client import ModbusSerialClient
 from pymodbus.client import ModbusSerialClient
-from toolboxTMU import parameter, sqlLibrary, initParameter, dataParser, harmonicParser, convertBinList
+from toolboxTMU import parameter, sqlLibrary, find_tap, initParameter, dataParser, harmonicParser, convertBinList
 from openpyxl import Workbook
+import requests
 import mysql.connector, time, datetime, math, openpyxl, sys, shutil, os
 from requests.models import StreamConsumedError
 from requests.exceptions import Timeout
 import random
 
-engineName = " Trafo X "
-teleURL = 'http://192.168.133.190:1444/api/transformer/sendNotificationToTelegramGroup'
+engineName = "Trafo X"
+teleURL = 'http://192.168.4.120:1444/api/transformer/sendNotificationToTelegramGroup'
 progStat = True
 debugMsg = False
 infoMsg = True
+
+exhibitStat = True
+OLTCstat = False
+pressureStat = False
+tempStat = True
+
+source = {
+    16: 862,
+    15: 817,
+    14: 773,
+    13: 728,
+    12: 683,
+    11: 639,
+    10: 594,
+    9: 548,
+    8: 503,
+    7: 458,
+    6: 413,
+    5: 367,
+    4: 321,
+    3: 276,
+    2: 230,
+    1: 184,
+    0: 0
+}
 
 def main():
     if infoMsg == True: print("1D|Initialize Program") 
     dataLen = 56
     watchedData = 29
-    CTratio = 1200
+    CTratio = 1
     PTratio = 1
     eddyLosesGroup = 0.02
     designedKrated = 1
@@ -25,6 +51,7 @@ def main():
     cycleTime = 2 / 60
     
     client = ModbusSerialClient(method='rtu', port='/dev/ttyACM0', baudrate=9600)
+    
     db = mysql.connector.connect(
         host = "localhost",
         user = "client",
@@ -34,11 +61,12 @@ def main():
 
     #init logger rawdata
     ts = time.strftime("%Y%m%d")
-    pathStr = r'/home/pi/tmu-v2-smart/assets/rawdata Test/datalogger-'
-    pathDatLog = pathStr + ts + engineName + '.xlsx'
+    #pathStr = r'/home/pi/tmu/tmu-app-client-deploy/assets/datalog/rawdata/datalogger-'
+    pathStr = r'/home/pi/tmu-v2-bib/assets/rawdata Test/datalogger-'
+    pathDatLog = pathStr + ts + '.xlsx'
     sheetName = ["Harmonic_phR", "Harmonic_phS", "Harmonic_phT"]
-    pathBkup = r'/home/pi/tmu-v2-smart/assets/rawdata Test/backup/datalogger-backup-'
-    pathDatBkup = pathBkup + ts + engineName + '.xlsx'
+    pathBkup = r'/home/pi/tmu-v2-bib/assets/rawdata Test/backup/datalogger-backup-'
+    pathDatBkup = pathBkup + ts + '.xlsx'
      
     try:
         wb = openpyxl.load_workbook(pathDatLog)
@@ -63,7 +91,7 @@ def main():
                     'WTITemp-u', 'WTITemp-v', 'WTITemp-w',  'Press', 'Level',
                     'KRated-u', 'Derating-u', 'KRated-v', 'Derating-v', 'KRated-w', 'Derating-w',
                     'H2ppm', 'Moistppm', 'Vdiff-uv', 'Vdiff-vw', 'Vdiff-uw',
-                    'trafoStatus', 'DIstat', 'DOstat', 'Alarm', 'Trip1', 'Trip2'),)
+                    'trafoStatus', 'DIstat', 'DOstat', 'Alarm', 'Trip1', 'Trip2', 'Tap Position'),)
         for row in name:
             sheet.append(row)
         for member in sheetName:
@@ -113,7 +141,6 @@ def main():
     for i in range(0, len(listFailure)):
         if listFailure[i][2] == None:
             activeFailure[activeFailure.index(None)] = listFailure[i]
-    #print(activeFailure)
     
     if infoMsg == True: print("1D|Start Loop")
     while progStat:
@@ -147,42 +174,55 @@ def main():
         if debugMsg == True: print("1D|3 Update status Relay")
         for i in range(0, 5):
             if outputIO[i][2] == 1:
-                client.write_coil(i, True, slave = 3)
+                client.write_coil(i, True, slave = 1)
             elif outputIO[i][2] == 0:
-                client.write_coil(i, False, slave = 3)
+                client.write_coil(i, False, slave = 1)
                 
-        if debugMsg == True: print("1D|4 Read Modbus Slave")
-        getTemp = client.read_holding_registers(4, 3, slave = 1)
+        if debugMsg == True: print("1D|4a Read Modbus Slave")
+        getTemp = client.read_holding_registers(4, 3, slave = 3)
         getElect1 = client.read_holding_registers(0, 29, slave = 2)
         getElect2 = client.read_holding_registers(46, 5, slave = 2)
         getElect3 = client.read_holding_registers(800, 6, slave = 2)
         getHarmV = client.read_holding_registers(806, 90, slave = 2)
         getHarmI = client.read_holding_registers(896, 90, slave = 2)
-        #getH2 = client.read_holding_registers(896, 90, slave = 2)
-        getH2 = 0
-        #getMoist = client.read_holding_registers(896, 90, slave = 2)
-        getMoist = 0
+        getH2 = client.read_holding_registers(0, 1, slave = 4)
+        getMoist = client.read_input_registers(0, 3, slave = 5)
+        if debugMsg == True: print("1D|4b Parse Data")
+        inputData = dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio)
+        
+        if debugMsg == True: print("1D|5 Read Input IO")
         oilLevelAlarm = inputIO[4][2]
-        oilLevelTrip = inputIO[5][2]        
+        oilLevelTrip = inputIO[5][2]
+        analogIn1 = inputIO[6][2]
+        analogIn2 = inputIO[7][2]
+
         if (oilLevelAlarm and oilLevelTrip) or oilLevelTrip:
             oilStat = 1
         elif oilLevelAlarm:
             oilStat = 2
         elif oilLevelAlarm == 0 and oilLevelTrip == 0:
             oilStat = 3
-        if debugMsg == True: print("1D|5 Parse Data")
-        inputData = dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio)
-        inputData[39] = inputIO[6][2] #Oil Temp
-        inputData[43] = inputIO[7][2] #Pressure
+        inputData[44] = oilStat     #Oil Level
+
+        if tempStat :
+            inputData[39] = analogIn1
+        
+        if OLTCstat:
+            tapPos = find_tap(round(analogIn2 * 0.06393945), source) + 1
+            cursor.execute(sqlLibrary.sqlUpdateTapPos, (tapPos,))
+
+        if pressureStat:
+            inputData[43] = analogIn2
+        else:
+            inputData[43] = 0
+        
         #Exhibition only
-        #inputData[39] = (random.randint(3500, 5000))/100 #Oil Temp
-        #inputData[43] = (random.randint(10, 25))/100 #Pressure
-        inputData[44] = oilStat
-        #test parameter
-        #inputData[4] = 430
-        #inputData[32] = 1
-        #inputData[53] = inputData[55] = 0
-        #inputData[14] = 5
+        if exhibitStat:
+            inputData[39] = (random.randint(3500, 5000))/100 #Oil Temp
+            inputData[43] = (random.randint(10, 25))/100 #Pressure
+            tapPos = random.randint(1, 15) #TapPos
+            cursor.execute(sqlLibrary.sqlUpdateTapPos, (tapPos,))
+
         if debugMsg == True: print("1D|6 Calculate WTI")
         for i in range(0, 3): loadFactor[i] = (inputData[i + 6])/trafoData[6]
         for i in range(0, 3):
@@ -317,7 +357,7 @@ def main():
 
             telePrevTime = datetime.datetime.now()
         #print(inputData)
-        if int((datetime.datetime.now() - excelPrevTime).total_seconds()) > 5:
+        if int((datetime.datetime.now() - excelPrevTime).total_seconds()) > 3:
             if debugMsg == True: print("1D|12A Routine Add data to work stage excel")
             for i in range(0, 3):
                 sendHarm = [datetime.datetime.now().strftime("%H:%M:%S")] + inputHarmonicV[i] + inputHarmonicI[i]
@@ -325,7 +365,7 @@ def main():
                 sheetHarm = wb[sheetName[i]]
                 for row in sendHarm:
                     sheetHarm.append(row)
-            sendLog = [datetime.datetime.now().strftime("%H:%M:%S")] + inputData + [maxStat] + binList
+            sendLog = [datetime.datetime.now().strftime("%H:%M:%S")] + inputData + [maxStat] + binList + [OLTCstat]
             sendLog = ((tuple(sendLog)),)
             sheet = wb["Raw_data"]
             for row in sendLog:

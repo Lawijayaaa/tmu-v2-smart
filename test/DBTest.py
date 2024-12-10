@@ -7,8 +7,8 @@ db = mysql.connector.connect(
     database= "iot_trafo_client")
 cursor = db.cursor()
 
-sql = "SELECT * FROM transformer_settings"
+sql = "SELECT * FROM transformer_data"
 
 cursor.execute(sql)
 trafoSetting = cursor.fetchall()[0]
-print(len(trafoSetting))
+print(trafoSetting)

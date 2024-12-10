@@ -22,6 +22,13 @@ class parameter:
             default=lambda o: o.__dict__, 
             sort_keys=True,
             indent=4)
+    
+def find_tap(input_value, input_output_map):
+    sorted_data = sorted(input_output_map.items(), reverse=True, key=lambda x: x[1])
+    for output, max_input in sorted_data:
+        if input_value >= max_input:
+            return output
+    return 0 
 
 def initParameter(dataSet, inputData, trafoSetting, trafoData, tripSetting, dataLen):
     paramThreshold = [[None]*dataLen, [None]*dataLen, [None]*dataLen, [None]*dataLen]
@@ -60,7 +67,11 @@ def initParameter(dataSet, inputData, trafoSetting, trafoData, tripSetting, data
                     True, True, True, True, True, True, True, True, True,
                     False, False, False, False, False, False, 
                     True, True, True, True, True]
-        
+    
+    trafoSetting = list(trafoSetting)
+    trafoSetting.pop(23)
+    trafoSetting.pop(23)
+    
     for i in range(0, 3):
         paramThreshold[0][i+3] = trafoSetting[2] #low trip Voltage
         paramThreshold[1][i+3] = trafoSetting[4] #low alarm Voltage
@@ -73,6 +84,7 @@ def initParameter(dataSet, inputData, trafoSetting, trafoData, tripSetting, data
         paramThreshold[2][i+40] = trafoSetting[17] #high alarm WTI Temp
         paramThreshold[3][i+40] = trafoSetting[18] #high trip WTI Temp
         paramThreshold[2][i+36] = trafoSetting[25] #high alarm Busbar Temp
+        
         paramThreshold[3][i+36] = trafoSetting[26] #high trip Busbar Temp
         paramThreshold[2][i + 11] = trafoSetting[29] #high alarm THD Voltage Alarm
         paramThreshold[3][i + 11] = trafoSetting[30] #high trip THD Voltage Trip
@@ -182,11 +194,11 @@ def initParameter(dataSet, inputData, trafoSetting, trafoData, tripSetting, data
                     dataSet[i].trafoStat = 0
     return(dataSet)
 
-def dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio):
+def dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio):
     outputData = [0]*dataLen
     #parse getTemp
     try:
-        outputData[38:41] = [(0 if member > 2400 else member/10) for member in getTemp.registers] #Busbar Temp
+        outputData[36:39] = [(0 if member > 2400 else member/10) for member in getTemp.registers] #Busbar Temp
     except:
         pass
     #parse getElect1
@@ -205,7 +217,7 @@ def dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLe
         outputData[34] = (unsignedInt32Handler(getElect1.registers[25:27]))/10 #kWh
         outputData[35] = (unsignedInt32Handler(getElect1.registers[27:]))/10 #kVARh
         outputData[32] = (outputData[29] + outputData[30] + outputData[31])/3 #Average PF
-        outputData[9] = outputData[6] + outputData[7] + outputData[8] #Total Current
+        outputData[9] = (outputData[6] + outputData[7] + outputData[8])/3 #Total Current
         outputData[53] = abs(outputData[0] - outputData[1]) #Gap Voltage Un-Vn
         outputData[54] = abs(outputData[1] - outputData[2]) #Gap Voltage Vn-Wn
         outputData[55] = abs(outputData[0] - outputData[2]) #Gap Voltage Un-Wn
@@ -227,14 +239,16 @@ def dataParser(getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLe
         pass
     #parse getH2 and getMoist
     try:
-        outputData[51] = getH2.registers #H2 ppm
-        outputData[52] = getMoist.registers #Water Content ppm
+        outputData[51] = getH2.registers[0] #H2 ppm
+        outputData[52] = getMoist.registers[2] #Water Content ppm
+        outputData[39] = (getMoist.registers[0])/10 #Top Oil Temp.
     except:
         pass
+    
     #Exhibition only
-    #outputData = randomify(dataLen)
-    for member in outputData:
-        member = (round(member * 1000))/1000
+    if exhibitStat:
+        outputData = randomify(dataLen)
+
     return outputData
 
 def randomify(dataLen):
@@ -396,6 +410,7 @@ class sqlLibrary():
     sqlLastFailure = "SELECT * FROM failure_log ORDER BY failure_id DESC LIMIT 1"
     sqlResolveFailure = "UPDATE failure_log SET duration = %s WHERE failure_id = %s"
     sqlUpdateTrafoStat = "UPDATE transformer_data SET status = %s WHERE trafoId = 1"
+    sqlUpdateTapPos = "UPDATE transformer_data SET impedance = %s WHERE trafoId = 1"
     sqlUpdateTransformerStatus = """UPDATE transformer_status SET 
                     Vab = %s , Vbc = %s , Vca = %s ,
                     Current1 = %s , Current2 = %s , Current3 = %s , Ineutral = %s ,

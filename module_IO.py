@@ -117,6 +117,7 @@ def main():
         pbStat = GPIO.input(13)
         analogIn1 = 0 if adc.read_adc(3, gain = 2) < 0 else adc.read_adc(3, gain = 2)
         analogIn2 = 0 if adc.read_adc(2, gain = 2) < 0 else adc.read_adc(2, gain = 2)
+        
         cursor.execute(sqlUpdateDI, [pbStat, 0])
         cursor.execute(sqlUpdateDI, [GPIO.input(17), 1])
         cursor.execute(sqlUpdateDI, [GPIO.input(22), 2])
