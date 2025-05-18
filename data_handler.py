@@ -11,7 +11,7 @@ import random
 engineName = "Trafo X"
 teleURL = 'http://192.168.4.120:1444/api/transformer/sendNotificationToTelegramGroup'
 progStat = True
-debugMsg = False
+debugMsg = True
 infoMsg = True
 
 exhibitStat = True
@@ -62,10 +62,10 @@ def main():
     #init logger rawdata
     ts = time.strftime("%Y%m%d")
     #pathStr = r'/home/pi/tmu/tmu-app-client-deploy/assets/datalog/rawdata/datalogger-'
-    pathStr = r'/home/pi/tmu-v2-bib/assets/rawdata Test/datalogger-'
+    pathStr = r'/home/pi/tmu-v2-smart/assets/rawdata-test/datalogger-'
     pathDatLog = pathStr + ts + '.xlsx'
     sheetName = ["Harmonic_phR", "Harmonic_phS", "Harmonic_phT"]
-    pathBkup = r'/home/pi/tmu-v2-bib/assets/rawdata Test/backup/datalogger-backup-'
+    pathBkup = r'/home/pi/tmu-v2-smart/assets/rawdata-test/backup/datalogger-backup-'
     pathDatBkup = pathBkup + ts + '.xlsx'
      
     try:
