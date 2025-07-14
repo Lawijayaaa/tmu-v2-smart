@@ -14,7 +14,7 @@ progStat = True
 debugMsg = True
 infoMsg = True
 
-exhibitStat = True
+exhibitStat = False
 OLTCstat = False
 pressureStat = False
 tempStat = True
