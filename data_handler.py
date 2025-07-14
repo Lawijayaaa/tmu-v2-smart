@@ -205,14 +205,14 @@ def main():
         inputData[44] = oilStat     #Oil Level
 
         if tempStat :
-            inputData[39] = analogIn1
+            inputData[39] = (((analogIn1 - 6553) / 26214) * 250) - 50
         
         if OLTCstat:
             tapPos = find_tap(round(analogIn2 * 0.06393945), source) + 1
             cursor.execute(sqlLibrary.sqlUpdateTapPos, (tapPos,))
 
         if pressureStat:
-            inputData[43] = analogIn2
+            inputData[43] = (analogIn2 - 6553) / 26214
         else:
             inputData[43] = 0
         
