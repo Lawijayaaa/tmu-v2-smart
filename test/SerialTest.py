@@ -4,7 +4,7 @@ import time
 
 #init modbus device
 client = ModbusSerialClient(method='rtu', port='/dev/ttyACM0', baudrate=9600)
-client2 = ModbusSerialClient(method='rtu', port='/dev/ttyUSB1', baudrate=9600)
+client2 = ModbusSerialClient(method='rtu', port='/dev/ttyUSB0', baudrate=9600)
 loop = False
 relayState = False
 gasState = False
