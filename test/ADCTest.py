@@ -14,7 +14,7 @@ while True:
     ANcurrent3 = adc.read_adc(3, gain = 2)    #Temperature
     ANcurrent2 = adc.read_adc(2, gain = 2)    #Pressure
     ANvoltage1 = adc.read_adc(1, gain = 2)    #OIL Level Alarm
-    ANvoltage1 = adc.read_adc(0, gain = 2)    #OIL Level Trip
+    ANvoltage0 = adc.read_adc(0, gain = 2)    #OIL Level Trip
     print(ANcurrent3)
     print(ANcurrent2)
     print(ANvoltage1)
