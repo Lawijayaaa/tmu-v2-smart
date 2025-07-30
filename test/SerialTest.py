@@ -10,6 +10,7 @@ relayState = False
 gasState = False
 
 def testBatch():
+    writeRly = client.write_coil(0, relayState, slave = 1)
     writeRly = client.write_coil(1, relayState, slave = 1)
     writeRly = client.write_coil(2, relayState, slave = 1)
     writeRly = client.write_coil(3, relayState, slave = 1)
