@@ -201,6 +201,8 @@ def main():
                 tempWTI = [0]*3
                 for i in range(0, 3):
                     tempWTI[i] = (getTemp2.registers[i])/10
+            except :
+                pass
         
         if debugMsg == True: print("1D|5 Read Input IO")
         oilLevelAlarm = inputIO[4][2]
