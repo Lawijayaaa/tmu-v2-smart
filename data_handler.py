@@ -11,12 +11,14 @@ import random
 engineName = "Trafo X"
 teleURL = 'http://192.168.4.120:1444/api/transformer/sendNotificationToTelegramGroup'
 progStat = True
-debugMsg = True
+debugMsg = False
 infoMsg = True
+dryType = False
+gasType = False
 
 exhibitStat = False
 OLTCstat = False
-pressureStat = False
+pressureStat = True
 tempStat = True
 
 source = {
@@ -185,10 +187,20 @@ def main():
         getElect3 = client.read_holding_registers(800, 6, slave = 2)
         getHarmV = client.read_holding_registers(806, 90, slave = 2)
         getHarmI = client.read_holding_registers(896, 90, slave = 2)
-        getH2 = client.read_holding_registers(0, 1, slave = 4)
-        getMoist = client.read_input_registers(0, 3, slave = 5)
-        if debugMsg == True: print("1D|4b Parse Data")
-        inputData = dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio)
+        if gasType :
+            getH2 = client.read_holding_registers(0, 1, slave = 4)
+            getMoist = client.read_input_registers(0, 3, slave = 5)
+            if debugMsg == True: print("1D|4b Parse Data")
+            inputData = dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, getMoist, dataLen, CTratio, PTratio)
+        else :
+            if debugMsg == True: print("1D|4b Parse Data")
+            inputData = dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, 0, 0, dataLen, CTratio, PTratio)
+        if dryType :
+            getTemp2 = client.read_holding_registers(0, 3, slave = 7)
+            try :
+                tempWTI = [0]*3
+                for i in range(0, 3):
+                    tempWTI[i] = (getTemp2.registers[i])/10
         
         if debugMsg == True: print("1D|5 Read Input IO")
         oilLevelAlarm = inputIO[4][2]
@@ -206,6 +218,8 @@ def main():
 
         if tempStat :
             inputData[39] = (((analogIn1 - 6553) / 26214) * 250) - 50
+        else : 
+            inputData[39] = 0
         
         if OLTCstat:
             tapPos = find_tap(round(analogIn2 * 0.06393945), source) + 1
@@ -222,37 +236,41 @@ def main():
             inputData[43] = (random.randint(10, 25))/100 #Pressure
             tapPos = random.randint(1, 15) #TapPos
             cursor.execute(sqlLibrary.sqlUpdateTapPos, (tapPos,))
-
-        if debugMsg == True: print("1D|6 Calculate WTI")
-        for i in range(0, 3): loadFactor[i] = (inputData[i + 6])/trafoData[6]
-        for i in range(0, 3):
-            currentLoadDefiner[i] = inputData[i + 6]
-            if currentLoadDefiner[i] - lastLoadDefiner[i] >= loadCoef:
-                timePassed[i] = 1
-                deltaHi1[i] = deltaH1[i]
-                deltaHi2[i] = deltaH2[i]
-                raisingLoadBool[i] = True
-                lastLoadDefiner[i] = currentLoadDefiner[i]
-            elif lastLoadDefiner[i] - currentLoadDefiner[i] >= loadCoef:
-                timePassed[i] = 1
-                deltaHi1[i] = deltaH1[i]
-                deltaHi2[i] = deltaH2[i]
-                raisingLoadBool[i] = False
-                lastLoadDefiner[i] = currentLoadDefiner[i]
-            else:
-                timePassed[i] = timePassed[i] + 1
-            try:
-                if raisingLoadBool[i]:
-                    deltaH1[i] = deltaHi1[i] + (((constantWTI[1] * trafoData[25] * trafoData[21]) * (math.pow(loadFactor[i], constantWTI[0])) - deltaHi1[i]) * (1 - math.exp((-1 * cycleTime * timePassed[i])/(constantWTI[2] * constantWTI[4]))))
-                    deltaH2[i] = deltaHi2[i] + ((((constantWTI[1] - 1) * trafoData[25] * trafoData[21]) * (math.pow(loadFactor[i], constantWTI[0])) - deltaHi2[i]) * (1 - math.exp((-1 * cycleTime * timePassed[i] * constantWTI[2])/constantWTI[3])))
-                    #print("rumus beban naik")
+        if dryType :
+            if debugMsg == True: print("1D|6 Assign WTI")
+            for i in range (0, 3) :
+                inputData[i + 40] = tempWTI[i]
+        else:
+            if debugMsg == True: print("1D|6 Calculate WTI")
+            for i in range(0, 3): loadFactor[i] = (inputData[i + 6])/trafoData[6]
+            for i in range(0, 3):
+                currentLoadDefiner[i] = inputData[i + 6]
+                if currentLoadDefiner[i] - lastLoadDefiner[i] >= loadCoef:
+                    timePassed[i] = 1
+                    deltaHi1[i] = deltaH1[i]
+                    deltaHi2[i] = deltaH2[i]
+                    raisingLoadBool[i] = True
+                    lastLoadDefiner[i] = currentLoadDefiner[i]
+                elif lastLoadDefiner[i] - currentLoadDefiner[i] >= loadCoef:
+                    timePassed[i] = 1
+                    deltaHi1[i] = deltaH1[i]
+                    deltaHi2[i] = deltaH2[i]
+                    raisingLoadBool[i] = False
+                    lastLoadDefiner[i] = currentLoadDefiner[i]
                 else:
-                    deltaH1[i] = constantWTI[1] * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]) + (deltaHi1[i] - (constantWTI[1] * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]))) * (math.exp((-1 * cycleTime * timePassed[i])/(constantWTI[2] * constantWTI[4])))
-                    deltaH2[i] = (constantWTI[1] - 1) * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]) + (deltaHi2[i] - (constantWTI[1] - 1) * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0])) * math.exp(((-1 * cycleTime * timePassed[i] * constantWTI[4])/constantWTI[3]))
-                    #print("rumus beban turun")
-            except:
-                pass
-            inputData[i + 40] = (round((inputData[39] + (deltaH1[i] - deltaH2[i])) * 100))/100
+                    timePassed[i] = timePassed[i] + 1
+                try:
+                    if raisingLoadBool[i]:
+                        deltaH1[i] = deltaHi1[i] + (((constantWTI[1] * trafoData[25] * trafoData[21]) * (math.pow(loadFactor[i], constantWTI[0])) - deltaHi1[i]) * (1 - math.exp((-1 * cycleTime * timePassed[i])/(constantWTI[2] * constantWTI[4]))))
+                        deltaH2[i] = deltaHi2[i] + ((((constantWTI[1] - 1) * trafoData[25] * trafoData[21]) * (math.pow(loadFactor[i], constantWTI[0])) - deltaHi2[i]) * (1 - math.exp((-1 * cycleTime * timePassed[i] * constantWTI[2])/constantWTI[3])))
+                        #print("rumus beban naik")
+                    else:
+                        deltaH1[i] = constantWTI[1] * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]) + (deltaHi1[i] - (constantWTI[1] * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]))) * (math.exp((-1 * cycleTime * timePassed[i])/(constantWTI[2] * constantWTI[4])))
+                        deltaH2[i] = (constantWTI[1] - 1) * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0]) + (deltaHi2[i] - (constantWTI[1] - 1) * trafoData[25] * trafoData[21] * math.pow(loadFactor[i], constantWTI[0])) * math.exp(((-1 * cycleTime * timePassed[i] * constantWTI[4])/constantWTI[3]))
+                        #print("rumus beban turun")
+                except:
+                    pass
+                inputData[i + 40] = (round((inputData[39] + (deltaH1[i] - deltaH2[i])) * 100))/100
         
         if debugMsg == True: print("1D|7 Parse Harm, Update DB")
         inputHarmonicV = harmonicParser(getHarmV)
