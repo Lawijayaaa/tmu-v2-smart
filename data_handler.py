@@ -219,7 +219,8 @@ def main():
         inputData[44] = oilStat     #Oil Level
 
         if tempStat :
-            inputData[39] = (((analogIn1 - 6553) / 26214) * 250) - 50
+            suhu = round(((analogIn1 × 0,007629627369) − 50), 3)
+            inputData[39] = max(0, suhu)
         else : 
             inputData[39] = 0
         
