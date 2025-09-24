@@ -15,6 +15,7 @@ debugMsg = False
 infoMsg = True
 dryType = False
 gasType = False
+transmitterModeMinus = False
 
 exhibitStat = False
 OLTCstat = False
@@ -219,7 +220,10 @@ def main():
         inputData[44] = oilStat     #Oil Level
 
         if tempStat :
-            suhu = round(((analogIn1 * 0.007629627369) - 50), 3)
+            if transmitterModeMinus :
+                suhu = round(((analogIn1 * 0.009537) - 112.5), 3)
+            else:
+                suhu = round(((analogIn1 * 0.007630) - 50), 3)
             inputData[39] = max(0, suhu)
         else : 
             inputData[39] = 0
