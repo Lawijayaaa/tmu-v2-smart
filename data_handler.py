@@ -64,8 +64,8 @@ def main():
 
     #init logger rawdata
     ts = time.strftime("%Y%m%d")
-    #pathStr = r'/home/pi/tmu/tmu-app-client-deploy/assets/datalog/rawdata/datalogger-'
-    pathStr = r'/home/pi/tmu-v2-smart/assets/rawdata-test/datalogger-'
+    pathStr = r'/home/pi/tmu/tmu-app-client-deploy/assets/datalog/rawdata/datalogger-'
+    #pathStr = r'/home/pi/tmu-v2-smart/assets/rawdata-test/datalogger-'
     pathDatLog = pathStr + ts + '.xlsx'
     sheetName = ["Harmonic_phR", "Harmonic_phS", "Harmonic_phT"]
     pathBkup = r'/home/pi/tmu-v2-smart/assets/rawdata-test/backup/datalogger-backup-'
@@ -176,18 +176,26 @@ def main():
         
         if debugMsg == True: print("1D|3 Update status Relay")
         for i in range(0, 5):
+            time.sleep(0.2)
             if outputIO[i][2] == 1:
                 client.write_coil(i, True, slave = 1)
             elif outputIO[i][2] == 0:
                 client.write_coil(i, False, slave = 1)
                 
         if debugMsg == True: print("1D|4a Read Modbus Slave")
+        time.sleep(0.2)
         getTemp = client.read_holding_registers(4, 3, slave = 3)
+        time.sleep(0.2)
         getElect1 = client.read_holding_registers(0, 29, slave = 2)
+        time.sleep(0.2)
         getElect2 = client.read_holding_registers(46, 5, slave = 2)
+        time.sleep(0.2)
         getElect3 = client.read_holding_registers(800, 6, slave = 2)
+        time.sleep(0.2)
         getHarmV = client.read_holding_registers(806, 90, slave = 2)
+        time.sleep(0.2)
         getHarmI = client.read_holding_registers(896, 90, slave = 2)
+        time.sleep(0.2)
         if gasType :
             getH2 = client.read_holding_registers(0, 1, slave = 4)
             getMoist = client.read_input_registers(0, 3, slave = 5)
@@ -428,6 +436,7 @@ def main():
         if debugMsg == True: print("1D|Cycle time %s" % cycleTime)
         print("1T|%s" % datetime.datetime.now())
         sys.stdout.flush()
+        time.sleep(4)
         
 if __name__ == "__main__":
     main()
