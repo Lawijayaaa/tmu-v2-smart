@@ -217,7 +217,7 @@ def dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, get
         outputData[34] = (unsignedInt32Handler(getElect1.registers[25:27]))/10 #kWh
         outputData[35] = (unsignedInt32Handler(getElect1.registers[27:]))/10 #kVARh
         outputData[32] = (outputData[29] + outputData[30] + outputData[31])/3 #Average PF
-        outputData[9] = (outputData[6] + outputData[7] + outputData[8])/3 #Total Current
+        outputData[9] = (outputData[6] + outputData[7] + outputData[8])/3 #Average Current
         outputData[53] = abs(outputData[0] - outputData[1]) #Gap Voltage Un-Vn
         outputData[54] = abs(outputData[1] - outputData[2]) #Gap Voltage Vn-Wn
         outputData[55] = abs(outputData[0] - outputData[2]) #Gap Voltage Un-Wn

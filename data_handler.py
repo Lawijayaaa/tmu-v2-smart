@@ -84,7 +84,7 @@ def main():
         sheet.title = "Raw_data"
         name = (('timestamp', 
                     'V-un', 'V-vn', 'V-wn', 'V-uv', 'V-vw', 'V-uw',
-                    'I-u', 'I-v', 'I-w', 'Itot', 'In',
+                    'I-u', 'I-v', 'I-w', 'Iavg', 'In',
                     'THDV-u', 'THDV-v', 'THDV-w', 'THDI-u', 'THDI-v', 'THDI-w',
                     'P-u', 'P-v', 'P-w', 'Ptot',
                     'Q-u', 'Q-v', 'Q-w', 'Q-tot',
