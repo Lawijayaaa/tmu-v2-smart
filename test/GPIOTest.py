@@ -6,11 +6,9 @@ GPIO.setup(13, GPIO.IN)
 GPIO.setup(22, GPIO.IN)
 GPIO.setup(17, GPIO.IN)
 GPIO.setup(27, GPIO.IN)
-dataNum = 1
 loop = False
 
 def testBatch():
-    print("data no : " + str(dataNum))
     print("Push Button - GPIO0")
     print(GPIO.input(13))
     print("Push Button - GPIO1")
@@ -20,7 +18,6 @@ def testBatch():
     print("Push Button - GPIO3")
     print(GPIO.input(27))
     print("~~~")
-    dataNum = dataNum + 1
 
 if loop:
     while True:
